@@ -471,6 +471,10 @@
     [
       "f3ab6f32-0e59-47bc-9fc0-c99654fd7e83",
       ""
+    ],
+    [
+      "bb314765-02cb-40dc-b8cb-087040932197",
+      "sd-card-read"
     ]
   ],
   "text_variables": {}
