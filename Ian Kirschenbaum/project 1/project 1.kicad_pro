@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "project-1.kicad_pro",
+    "filename": "project 1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -469,12 +469,8 @@
   },
   "sheets": [
     [
-      "f3ab6f32-0e59-47bc-9fc0-c99654fd7e83",
+      "26bbb5f5-51f7-44c1-9188-a87fb7fe3f34",
       ""
-    ],
-    [
-      "bb314765-02cb-40dc-b8cb-087040932197",
-      "sd-card-read"
     ]
   ],
   "text_variables": {}

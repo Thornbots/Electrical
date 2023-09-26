@@ -1,0 +1,36 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid db09f14f-0c16-49e0-aa48-65f2247acb4f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 120.65 67.31) (xy 129.54 67.31))
+    (stroke (width 0) (type default))
+    (uuid 3e381027-b73e-4df0-986c-83437d25dc33)
+  )
+  (wire (pts (xy 129.54 67.31) (xy 129.54 68.58))
+    (stroke (width 0) (type default))
+    (uuid 84dca591-257a-4ed4-8f8f-332032af0dc4)
+  )
+
+  (global_label "GND" (shape input) (at 129.54 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ba88f7e9-5a43-473c-80ff-01b6dbfb1299)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 136.3957 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (hierarchical_label "data_0" (shape input) (at 129.54 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0e21f7de-1cc1-48d8-8353-b6cc805bb67a)
+  )
+  (hierarchical_label "data_1" (shape input) (at 129.54 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a7b50daf-7e18-4d01-8bf1-2cfd8a7f2e03)
+  )
+)

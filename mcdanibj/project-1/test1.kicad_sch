@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a08315e6-62a3-4af7-b7da-3244986a4d2b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "vout" (shape input) (at 102.87 71.12 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 02dd12f2-978a-4522-9245-25761b846c90)
+  )
+)
