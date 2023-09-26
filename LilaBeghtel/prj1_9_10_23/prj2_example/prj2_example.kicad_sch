@@ -1,0 +1,39 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4b897c45-e0bb-4272-abbe-ca11a7dbfd24)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 116.84 67.31) (size 50.8 27.94)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ce2ea00e-5f3f-4b13-aef6-64750b9c786e)
+    (property "Sheetname" "sd-card-reader" (at 116.84 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 116.84 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "data_0" input (at 167.64 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c199cce2-9a0b-41f1-8019-bc5fe7049627)
+    )
+    (pin "data_1" input (at 167.64 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 45100c89-f11f-4eef-af57-f5d58839580e)
+    )
+    (instances
+      (project "prj2_example"
+        (path "/4b897c45-e0bb-4272-abbe-ca11a7dbfd24" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
