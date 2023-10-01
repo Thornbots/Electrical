@@ -326,6 +326,10 @@
     [
       "62c024b8-c3de-4c41-aee8-1c4e04bb29b7",
       ""
+    ],
+    [
+      "c0c07914-fff1-409c-bb13-1b5ccaa2915d",
+      "I2C LCD"
     ]
   ],
   "text_variables": {}

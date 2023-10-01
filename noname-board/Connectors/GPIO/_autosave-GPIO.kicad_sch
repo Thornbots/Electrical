@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 269e7b13-d35d-4593-aff2-82ffa1727dca)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 137.16 54.61) (size 91.44 73.66) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 641e15e1-425a-4d77-b747-db19ecbacb5e)
+    (property "Sheetname" "GPIO" (at 137.16 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "GPIO_Sheet.kicad_sch" (at 137.16 128.8546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GPIO"
+        (path "/269e7b13-d35d-4593-aff2-82ffa1727dca" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
