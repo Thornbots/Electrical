@@ -1,0 +1,51 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 33a0f6eb-e851-410b-8163-d133b075fe39)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 127 78.74) (size 34.29 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1de7bb88-1bde-407f-9bdc-28bcc11dc489)
+    (property "Sheetname" "4 bit array decoder with leds" (at 127 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 127 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "power" input (at 127 80.01 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 05995dc4-f2ae-498e-b717-309c1e5c0532)
+    )
+    (pin "input 3" input (at 127 90.17 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 79ece014-32aa-44e3-93b4-2fd6f05db288)
+    )
+    (pin "input 2" input (at 127 87.63 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 663d5954-7f2a-40de-aac3-af7c2ae74394)
+    )
+    (pin "input 4" input (at 127 92.71 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 56d347ef-2b6c-4343-9f5c-ef99352d54e9)
+    )
+    (pin "input 1" input (at 127 85.09 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid edef413c-dadb-4157-ae65-1ede93a0a298)
+    )
+    (instances
+      (project "4-bit-array-decoder"
+        (path "/33a0f6eb-e851-410b-8163-d133b075fe39" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
