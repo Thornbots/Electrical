@@ -172,6 +172,23 @@
     )
   )
 
+  (sheet (at 133.35 72.39) (size 87.63 72.39) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c0c07914-fff1-409c-bb13-1b5ccaa2915d)
+    (property "Sheetname" "I2C LCD" (at 133.35 71.6784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 133.35 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "i2c"
+        (path "/62c024b8-c3de-4c41-aee8-1c4e04bb29b7" (page "2"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
