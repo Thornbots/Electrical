@@ -312,6 +312,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -326,6 +334,10 @@
     [
       "33a0f6eb-e851-410b-8163-d133b075fe39",
       ""
+    ],
+    [
+      "1de7bb88-1bde-407f-9bdc-28bcc11dc489",
+      "4 bit array decoder with leds"
     ]
   ],
   "text_variables": {}
