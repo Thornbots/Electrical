@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RP2040.kicad_pro",
+    "filename": "GPIO.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -322,15 +322,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "5f0df7f5-bb2d-4584-a103-baca83cb7710",
-      ""
-    ],
-    [
-      "55f46dad-ab58-488d-bc11-a836e3432a2f",
-      "RP2040"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }

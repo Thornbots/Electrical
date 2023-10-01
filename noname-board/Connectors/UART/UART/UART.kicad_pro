@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RP2040.kicad_pro",
+    "filename": "UART.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -324,12 +324,8 @@
   },
   "sheets": [
     [
-      "5f0df7f5-bb2d-4584-a103-baca83cb7710",
+      "2647965b-4766-434f-aba1-02b6b336399e",
       ""
-    ],
-    [
-      "55f46dad-ab58-488d-bc11-a836e3432a2f",
-      "RP2040"
     ]
   ],
   "text_variables": {}
