@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "USBC.kicad_pro",
+    "filename": "DBUS.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -324,12 +324,12 @@
   },
   "sheets": [
     [
-      "f2e74a7f-7065-4b2f-90db-12a09c16d2ca",
+      "000b6043-22bf-41fe-877d-6cd118fff44c",
       ""
     ],
     [
-      "2f5bc9a6-e62f-4fad-b6eb-0074f3852e7e",
-      "USB_C"
+      "018f43cd-58f9-42fd-a7f4-29cb0f4769be",
+      "DBUS_"
     ]
   ],
   "text_variables": {}
