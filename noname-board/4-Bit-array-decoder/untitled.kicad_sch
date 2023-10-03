@@ -240,6 +240,11 @@
     (uuid fc38fbe7-ab98-4e0c-9347-47d7433b2a5a)
   )
 
+  (text "so real\n" (at 165.1 116.84 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8a9db166-1015-4db2-9d8a-bfc67042d394)
+  )
+
   (global_label "GND" (shape input) (at 128.27 116.84 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0cd26bf3-5a21-405d-b2a2-c760327856e5)

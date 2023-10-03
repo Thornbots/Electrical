@@ -322,6 +322,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "269e7b13-d35d-4593-aff2-82ffa1727dca",
+      ""
+    ],
+    [
+      "641e15e1-425a-4d77-b747-db19ecbacb5e",
+      "GPIO"
+    ]
+  ],
   "text_variables": {}
 }
