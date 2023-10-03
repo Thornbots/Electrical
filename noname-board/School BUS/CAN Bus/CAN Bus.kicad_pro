@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GPIO.kicad_pro",
+    "filename": "CAN Bus.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -324,12 +324,12 @@
   },
   "sheets": [
     [
-      "269e7b13-d35d-4593-aff2-82ffa1727dca",
+      "e323b8d3-dcf0-4404-95cd-04e5731b843c",
       ""
     ],
     [
-      "641e15e1-425a-4d77-b747-db19ecbacb5e",
-      "GPIO"
+      "58344fd8-a95d-4780-a39d-1367d5f45d2f",
+      "CAN Bus"
     ]
   ],
   "text_variables": {}

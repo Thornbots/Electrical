@@ -338,6 +338,10 @@
     [
       "1de7bb88-1bde-407f-9bdc-28bcc11dc489",
       "4 bit array decoder with leds"
+    ],
+    [
+      "d3b64f8b-cdb6-4f8f-91d7-d4a4893d285e",
+      "leds and resistors cus long"
     ]
   ],
   "text_variables": {}

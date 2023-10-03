@@ -765,11 +765,11 @@
     )
   )
 
-  (hierarchical_label "USB_DP" (shape input) (at 81.28 54.61 270) (fields_autoplaced)
+  (hierarchical_label "USB_D+" (shape input) (at 81.28 54.61 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0735d4bd-d05a-490f-be95-e18563108655)
   )
-  (hierarchical_label "USB_DM" (shape input) (at 85.09 48.26 270) (fields_autoplaced)
+  (hierarchical_label "USB_D-" (shape input) (at 85.09 48.26 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e9e0754c-5a86-48bc-ae40-c77e2db75a4a)
   )
