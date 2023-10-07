@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM1084IT_3.3_NOPB'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM1084IT-3.3/NOPB" (!) = "", "TO254P470X1028X1955-3P", "Transistor Outline, Vertical", "926-LM1084IT-3.3NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1084IT-3.3-NOPB?qs=X1J7HmVL2ZH4e8i30AZoWw%3D%3D", "Texas Instruments LM1084IT-3.3/NOPB, LDO Voltage Regulator, 5A, 3.3 V, 2.6  27 Vin 3-Pin, TO-220", "", "4.7 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM1084IT-3.3_NOPB
+D Texas Instruments LM1084IT-3.3/NOPB, LDO Voltage Regulator, 5A, 3.3 V, 2.6  27 Vin 3-Pin, TO-220
+K
+F 
+$ENDCMP
+#
+#End Doc Library

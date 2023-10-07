@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM2940CT-5.0/NOPB
+PartCategory=Transistor
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=2.5
+Released=2016-11-15 11:01:40
+Downloaded=2023-10-07 20:05:51
+3D=Y

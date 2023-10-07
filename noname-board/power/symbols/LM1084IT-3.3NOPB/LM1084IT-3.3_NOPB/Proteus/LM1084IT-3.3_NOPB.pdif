@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM1084IT-3.3_NOPB"
+   (description "Texas Instruments LM1084IT-3.3/NOPB, LDO Voltage Regulator, 5A, 3.3 V, 2.6  27 Vin 3-Pin, TO-220")
+   (family "ANA")
+   (package "TO254P470X1028X1955-3P")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Mouser Part Number" "926-LM1084IT-3.3NOPB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1084IT-3.3-NOPB?qs=X1J7HmVL2ZH4e8i30AZoWw%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LM1084IT-3.3/NOPB")
+   (gate
+    (symbol "LM1084IT-3.3_NOPB")
+    (pin "IN" 1 IP)
+    (pin "OUT" 2 OP)
+    (pin "GND" 3 PP)
+   )
+  )
+  (symbol "LM1084IT-3.3_NOPB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P470X1028X1955-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.98 3.17)
+      (pt 8.06 3.17)
+      (pt 8.06 -2.03)
+      (pt -2.98 -2.03)
+      (pt -2.98 3.17))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.73 2.92)
+      (pt 7.81 2.92)
+      (pt 7.81 -1.78)
+      (pt -2.73 -1.78)
+      (pt -2.73 2.92))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.73 1.65)
+      (pt -1.46 2.92))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.81 -1.78)
+      (pt 7.81 2.92)
+      (pt -2.73 2.92)
+      (pt -2.73 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.29)
+    (plated true)
+    (pad (layer TCOP) (round 1.935))
+    (pad (layer INNER) (round 1.935))
+    (pad (layer BCOP) (round 1.935))
+   )
+   (padstack 1
+    (hole 1.29)
+    (plated true)
+    (pad (layer TCOP) (square 1.935))
+    (pad (layer INNER) (round 1.935))
+    (pad (layer BCOP) (square 1.935))
+   )
+   (model "LM1084IT-3.3_NOPB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
