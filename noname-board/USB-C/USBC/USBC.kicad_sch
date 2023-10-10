@@ -26,6 +26,18 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9670e22a-0c6c-4804-a51f-66d5fe0e65b7)
     )
+    (pin "3V3" input (at 142.24 63.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 25fedbca-1216-46c9-b044-8d2b1b6dd61f)
+    )
+    (pin "GND" input (at 142.24 67.31 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid dd93a4c2-2ffc-408a-a947-b73b5dcf488f)
+    )
+    (pin "5V" input (at 142.24 50.8 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1d316285-800f-426a-ae6e-ac2512239e63)
+    )
     (instances
       (project "USBC"
         (path "/f2e74a7f-7065-4b2f-90db-12a09c16d2ca" (page "2"))
