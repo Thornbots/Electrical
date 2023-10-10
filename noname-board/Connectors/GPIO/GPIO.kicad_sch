@@ -130,6 +130,18 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 97f681e7-9901-467b-afdd-8b410fe5bbf5)
     )
+    (pin "5V" input (at 137.16 57.15 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a7a12b08-4dbc-44a6-a5cf-176c948e2950)
+    )
+    (pin "3V3" input (at 177.8 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c3830f8e-1597-4f38-a1f4-a6030deffaba)
+    )
+    (pin "GND" input (at 172.72 107.95 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid fb49079a-b57d-4b05-a0f7-2e2145063310)
+    )
     (instances
       (project "GPIO"
         (path "/269e7b13-d35d-4593-aff2-82ffa1727dca" (page "2"))
