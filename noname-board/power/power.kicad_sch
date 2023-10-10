@@ -1,5 +1,43 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 98742a09-6d32-4217-a474-ca7198a8eb01)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 121.92 76.2) (size 55.88 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5f1da244-199a-4c11-be94-62be443d4855)
+    (property "Sheetname" "POWER" (at 121.92 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_hehe.kicad_sch" (at 121.92 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "GND_xt30" input (at 177.8 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5e197cb2-13e4-4801-9802-51da1f831f1a)
+    )
+    (pin "5V" input (at 177.8 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid bb147321-2aba-4e90-80fb-4b8416d4d120)
+    )
+    (pin "3V3" input (at 177.8 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 6ddb7e97-7187-42b9-b215-f2f163e1f395)
+    )
+    (instances
+      (project "power"
+        (path "/98742a09-6d32-4217-a474-ca7198a8eb01" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

@@ -1,0 +1,16 @@
+.LM1084IT-3.3_NOPB :1 ;Texas Instruments LM1084IT-3.3/NOPB, LDO Voltage Regulator, 5A, 3.3 V, 2.6  27 Vin 3-Pin, TO-220
+TO254P470X1028X1955-3P
+*STM PS
+*NGS
+*PLB 1="IN" 2="OUT" 3="GND"
+*MXP 3
+*DFN LM1084IT-3.3_NOPB
+~!Mouser Part Number (926-LM1084IT-3.3NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1084IT-3.3-NOPB?qs=X1J7HmVL2ZH4e8i30AZoWw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM1084IT-3.3/NOPB)
+~!Link Datasheet (-)
+~!Height (4.7mm)
+~!3D_Model (LM1084IT-3.3_NOPB)
+LM1084IT-3.3_NOPB
+1.1!I 2.1!Y 3.1!G 

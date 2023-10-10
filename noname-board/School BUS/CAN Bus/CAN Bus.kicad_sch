@@ -18,14 +18,6 @@
     (property "Sheetfile" "CANBUS.kicad_sch" (at 135.89 150.4446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "data_0" input (at 182.88 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3f3397aa-f6f6-4997-a029-91d42e6954df)
-    )
-    (pin "data_1" input (at 182.88 127 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 63a6854b-9c88-4e6a-8cb7-d7f04506b32c)
-    )
     (instances
       (project "CAN Bus"
         (path "/e323b8d3-dcf0-4404-95cd-04e5731b843c" (page "2"))

@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 000b6043-22bf-41fe-877d-6cd118fff44c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.9 46.99) (size 86.36 67.31) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 018f43cd-58f9-42fd-a7f4-29cb0f4769be)
+    (property "Sheetname" "DBUS_" (at 88.9 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "DBUS_.kicad_sch" (at 88.9 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DBUS"
+        (path "/000b6043-22bf-41fe-877d-6cd118fff44c" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

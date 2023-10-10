@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM1084IT-3_3_NOPB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-02-04-13:52:15)
+    (mountForm default
+        (footprintRef "TO254P470X1028X1955-3P")
+        (spec "System")
+    )
+)
