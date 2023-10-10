@@ -26,6 +26,14 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9ca93f72-03c6-4b89-81d0-cf874361d065)
     )
+    (pin "5V" input (at 133.35 99.06 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a93d52a7-52d2-4c5c-9b52-5590eeb31eef)
+    )
+    (pin "GND" input (at 133.35 92.71 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4c43f54d-debf-490e-bcc0-2cf90042817e)
+    )
     (instances
       (project "i2c"
         (path "/62c024b8-c3de-4c41-aee8-1c4e04bb29b7" (page "2"))
