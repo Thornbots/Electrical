@@ -1,0 +1,16 @@
+.LM2940CT-5.0_NOPB :1 ;1A,5V,LDO Voltage Regulator,LM2940CT-5.0 Texas Instruments LM2940CT-5.0/NOPB, LDO Voltage Regulator, 1A, 5 V, 6.25  26 Vin, 3-Pin TO-220
+TO254P470X1028X1955-3P
+*STM Q
+*NGS
+*PLB 1="IN" 2="GND" 3="OUT"
+*MXP 3
+*DFN LM2940CT-5.0_NOPB
+~!Mouser Part Number (926-LM2940CT-5.0NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940CT-5.0-NOPB?qs=X1J7HmVL2ZHd4yipOGCVKg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM2940CT-5.0/NOPB)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/lm2940c.pdf)
+~!Height (4.7mm)
+~!3D_Model (LM2940CT-5.0_NOPB)
+LM2940CT-5.0_NOPB
+1.1!U 2.1!U 3.1!U 
