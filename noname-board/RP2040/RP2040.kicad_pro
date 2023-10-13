@@ -475,6 +475,10 @@
     [
       "55f46dad-ab58-488d-bc11-a836e3432a2f",
       "RP2040"
+    ],
+    [
+      "a3e4242b-adaa-475b-825c-56d34a794847",
+      "Flash Drive"
     ]
   ],
   "text_variables": {}
