@@ -18,6 +18,18 @@
     (property "Sheetfile" "CANBUS.kicad_sch" (at 135.89 150.4446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "GND" input (at 135.89 123.19 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 623c8340-7964-491f-888a-d152094390be)
+    )
+    (pin "3V3" input (at 135.89 125.73 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d4b8fe21-42c1-4bc0-8b7d-e5f86c483f83)
+    )
+    (pin "Vref" input (at 135.89 128.27 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 755ad986-a30b-4032-8b6d-4b05ad66ecf2)
+    )
     (instances
       (project "CAN Bus"
         (path "/e323b8d3-dcf0-4404-95cd-04e5731b843c" (page "2"))
