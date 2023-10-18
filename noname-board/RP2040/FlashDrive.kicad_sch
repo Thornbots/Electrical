@@ -308,26 +308,31 @@
   )
 
   (symbol (lib_id "Device:C") (at 111.76 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 90c6b706-ed11-4c9f-a06e-5acd34bca5ec)
-    (property "Reference" "C15" (at 115.57 101.6 0)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9fd0e035-f954-45b7-8eb4-1805e0d003aa)
+    (property "Reference" "C13" (at 111.76 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uf" (at 115.57 104.14 0)
+    (property "Value" "1uF" (at 111.76 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 112.7252 106.68 0)
+    (property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" (at 112.7252 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ecebc128-d048-46d4-9412-9c6b6a0cd9cd))
-    (pin "2" (uuid 96e14b25-eca7-4b1a-ba09-c9239918f7e3))
+    (pin "1" (uuid def6dcd3-fa88-404b-bead-6e4db0a454d3))
+    (pin "2" (uuid 3b360acb-0643-4f4f-9c88-88c8c58a2889))
     (instances
+      (project "RealP2040"
+        (path "/0904fbeb-717c-41e9-a0cd-a08b26a204ea"
+          (reference "C13") (unit 1)
+        )
+      )
       (project "RP2040"
-        (path "/5f0df7f5-bb2d-4584-a103-baca83cb7710"
-          (reference "C15") (unit 1)
+        (path "/5f0df7f5-bb2d-4584-a103-baca83cb7710/55f46dad-ab58-488d-bc11-a836e3432a2f"
+          (reference "C13") (unit 1)
         )
         (path "/5f0df7f5-bb2d-4584-a103-baca83cb7710/a3e4242b-adaa-475b-825c-56d34a794847"
           (reference "C15") (unit 1)
@@ -345,7 +350,7 @@
     (property "Value" "10k" (at 142.24 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 137.922 99.06 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 137.922 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 99.06 0)
