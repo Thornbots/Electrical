@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\benbo\Documents\GitHub\Electrical\noname-board\ROSE-PILK_v1\ROSE-PILK_v1.kicad_sch</source>
+    <date>10/21/2023 10:32:38 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ROSE-PILK_v1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>391847f9-b035-4d6f-972e-f336028d5436</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.47uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>6a9b69d5-f677-4d5f-b6af-a35acdfd3882</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>4e43e782-2561-41a5-b138-2713865a0627</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF MUST BE TANTALUM</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>36eff17e-fd77-4342-81d3-606a985a47e7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Pin</value>
+      <footprint>XT30:XT30UPB-M</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>3f282cb5-582a-429f-9f67-7c7d3184068a</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>LM1084IT-3.3_NOPB</value>
+      <footprint>TO254P470X1028X1955-3P</footprint>
+      <fields>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM1084IT-3.3/NOPB</field>
+        <field name="Mouser Part Number">926-LM1084IT-3.3NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1084IT-3.3-NOPB?qs=X1J7HmVL2ZH4e8i30AZoWw%3D%3D</field>
+      </fields>
+      <libsource lib="LM1084IT-3.3NOPB" part="LM1084IT-3.3_NOPB" description="Texas Instruments LM1084IT-3.3/NOPB, LDO Voltage Regulator, 5A, 3.3 V, 2.6  27 Vin 3-Pin, TO-220"/>
+      <property name="Height" value="4.7"/>
+      <property name="Mouser Part Number" value="926-LM1084IT-3.3NOPB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1084IT-3.3-NOPB?qs=X1J7HmVL2ZH4e8i30AZoWw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LM1084IT-3.3/NOPB"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Texas Instruments LM1084IT-3.3/NOPB, LDO Voltage Regulator, 5A, 3.3 V, 2.6  27 Vin 3-Pin, TO-220"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>05e53e2f-21dd-4942-82f5-e807bb27eb0a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>LM2940CT-5.0_NOPB</value>
+      <footprint>TO254P470X1028X1955-3P</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2940c.pdf</datasheet>
+      <fields>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2940CT-5.0/NOPB</field>
+        <field name="Mouser Part Number">926-LM2940CT-5.0NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940CT-5.0-NOPB?qs=X1J7HmVL2ZHd4yipOGCVKg%3D%3D</field>
+      </fields>
+      <libsource lib="LM2940CT-5.0/NOPB" part="LM2940CT-5.0_NOPB" description="1A,5V,LDO Voltage Regulator,LM2940CT-5.0 Texas Instruments LM2940CT-5.0/NOPB, LDO Voltage Regulator, 1A, 5 V, 6.25  26 Vin, 3-Pin TO-220"/>
+      <property name="Height" value="4.7"/>
+      <property name="Mouser Part Number" value="926-LM2940CT-5.0NOPB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940CT-5.0-NOPB?qs=X1J7HmVL2ZHd4yipOGCVKg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LM2940CT-5.0/NOPB"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="1A,5V,LDO Voltage Regulator,LM2940CT-5.0 Texas Instruments LM2940CT-5.0/NOPB, LDO Voltage Regulator, 1A, 5 V, 6.25  26 Vin, 3-Pin TO-220"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>719b3f33-3c09-4e48-b6e5-405881a138a7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5k</value>
+      <libsource lib="Device" part="R_Variable_US" description="Variable resistor, US symbol"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Variable resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor variable potentiometer rheostat"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>0b268187-6d0b-4c9f-96b3-14581b472d4d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>121 Nominal</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/power/" tstamps="/7f9280f8-5c56-426f-91c5-2013c74ffd42/"/>
+      <tstamps>d96b858d-4615-4460-bd64-fcaccd6eb0ed</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Variable_US">
+      <description>Variable resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Variable_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM1084IT-3.3NOPB" part="LM1084IT-3.3_NOPB">
+      <description>Texas Instruments LM1084IT-3.3/NOPB, LDO Voltage Regulator, 5A, 3.3 V, 2.6  27 Vin 3-Pin, TO-220</description>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">LM1084IT-3.3_NOPB</field>
+        <field name="Footprint">TO254P470X1028X1955-3P</field>
+        <field name="Height">4.7</field>
+        <field name="Mouser Part Number">926-LM1084IT-3.3NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1084IT-3.3-NOPB?qs=X1J7HmVL2ZH4e8i30AZoWw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM1084IT-3.3/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM2940CT-5.0/NOPB" part="LM2940CT-5.0_NOPB">
+      <description>1A,5V,LDO Voltage Regulator,LM2940CT-5.0 Texas Instruments LM2940CT-5.0/NOPB, LDO Voltage Regulator, 1A, 5 V, 6.25  26 Vin, 3-Pin TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2940c.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">LM2940CT-5.0_NOPB</field>
+        <field name="Footprint">TO254P470X1028X1955-3P</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2940c.pdf</field>
+        <field name="Height">4.7</field>
+        <field name="Mouser Part Number">926-LM2940CT-5.0NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940CT-5.0-NOPB?qs=X1J7HmVL2ZHd4yipOGCVKg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2940CT-5.0/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LM1084IT-3.3NOPB">
+      <uri>C:\Users\benbo\Documents\GitHub\Electrical\noname-board\ROSE-PILK_v1/symbols/LM1084IT-3.3NOPB/LM1084IT-3.3_NOPB/KiCad/LM1084IT-3_3_NOPB.kicad_sym</uri>
+    </library>
+    <library logical="LM2940CT-5.0/NOPB">
+      <uri>C:\Users\benbo\Documents\GitHub\Electrical\noname-board\ROSE-PILK_v1/symbols/LM2940CT-5.0NOPB/LM2940CT-5.0_NOPB/KiCad/LM2940CT-5_0_NOPB.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/power/3V3">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="PS1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/power/5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="3" name="/power/GND_xt30">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J1-Pin_1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="IN" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(PS1-OUT)">
+      <node ref="PS1" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
