@@ -285,7 +285,7 @@
     (property "Value" "CD4514BM" (at 134.62 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CD4514BM:DW24" (at 134.62 85.09 0)
+    (property "Footprint" "CD4514BM:SOIC127P1030X265-24N" (at 134.62 85.09 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 134.62 85.09 0)

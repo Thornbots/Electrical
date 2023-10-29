@@ -434,7 +434,7 @@
     (property "Value" "SW_Push" (at 99.06 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 92.71 43.18 0)
+    (property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01" (at 92.71 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.71 43.18 0)
