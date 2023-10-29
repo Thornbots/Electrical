@@ -281,7 +281,7 @@
     (property "Value" "W25Q128JVS" (at 132.08 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (at 140.97 80.01 0)
+    (property "Footprint" "W25Q128JVSIQ:SOIC127P790X216-8N" (at 140.97 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (at 140.97 80.01 0)

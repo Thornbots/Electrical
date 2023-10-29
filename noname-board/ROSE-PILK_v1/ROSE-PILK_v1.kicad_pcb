@@ -1043,7 +1043,7 @@
 
   (footprint "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Horizontal" (layer "F.Cu")
     (tstamp 13dfdd0b-0e25-468b-bbf6-5de3f60e93f3)
-    (at 156.92 97.06)
+    (at 116.28 66.58)
     (descr "Through hole angled pin header, 1x03, 2.00mm pitch, 4.2mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.00mm single row")
     (property "Sheetfile" "ROSE-PILK_v1.kicad_sch")
@@ -1915,7 +1915,7 @@
 
   (footprint "XT30UPB-M:XT30UPB-M" (layer "F.Cu")
     (tstamp 332a347d-5130-4fab-9903-6ca9f41504a2)
-    (at 73.66 165.1)
+    (at 66.04 167.64)
     (property "Availability" "Not in stock")
     (property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda")
     (property "Description" "\nSocket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n")
@@ -1928,7 +1928,7 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap")
     (path "/7f9280f8-5c56-426f-91c5-2013c74ffd42/e0ec918d-d9e6-41c6-987d-89175e4ff8b4")
     (attr through_hole)
-    (fp_text reference "U4" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "U4" (at 0 5.08) (layer "F.SilkS")
         (effects (font (size 0.787402 0.787402) (thickness 0.15)))
       (tstamp 293d5f4e-1428-4f56-b9fb-cce5084e3dc1)
     )
