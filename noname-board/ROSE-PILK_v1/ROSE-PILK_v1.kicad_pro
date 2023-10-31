@@ -511,6 +511,10 @@
     [
       "bba6feb6-0708-4b51-a731-0bb8ba53ae80",
       "SD Card Reader"
+    ],
+    [
+      "ee4b99aa-294b-4c3b-9b79-fbaf11f9a74b",
+      "BOOTSEL"
     ]
   ],
   "text_variables": {}
