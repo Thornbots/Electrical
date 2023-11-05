@@ -521,7 +521,7 @@
     (property "Value" "SW_Push" (at 99.06 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 92.71 43.18 0)
+    (property "Footprint" "PS1024ALRED:SW_PS1024ALRED" (at 92.71 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.71 43.18 0)
