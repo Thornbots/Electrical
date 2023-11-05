@@ -505,16 +505,16 @@
       "CAN1"
     ],
     [
-      "bff8d6d1-098c-49fb-b63b-12002790b7d0",
-      "CAN2"
-    ],
-    [
       "bba6feb6-0708-4b51-a731-0bb8ba53ae80",
       "SD Card Reader"
     ],
     [
       "ee4b99aa-294b-4c3b-9b79-fbaf11f9a74b",
       "BOOTSEL"
+    ],
+    [
+      "cc566290-d472-48a8-a9ae-4e54f87660da",
+      "CAN2"
     ]
   ],
   "text_variables": {}
