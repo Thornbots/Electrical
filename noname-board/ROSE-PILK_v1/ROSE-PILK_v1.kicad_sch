@@ -991,9 +991,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid ca7ca5cf-958c-43c6-b1d8-18091f15214a)
     )
-    (pin "3V3" input (at 78.74 149.86 180)
+    (pin "3v3" input (at 78.74 149.86 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 3b6f4fc4-4df7-45d3-aefa-1a2c93af74fd)
+      (uuid 77fc0b73-920a-4510-99b8-3ccf62648cff)
     )
     (instances
       (project "ROSE-PILK_v1"
