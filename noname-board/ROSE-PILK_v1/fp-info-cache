@@ -1,4 +1,4 @@
-22207148157336176
+22219039011376314
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2435,6 +2435,13 @@ speaker CUI
 0
 2
 2
+CD4514BM
+SOIC127P1030X265-24N
+
+
+0
+24
+24
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -62152,6 +62159,20 @@ Yellow 5381 Series LED
 0
 2
 2
+LM1084IT-3.3
+TO254P1054X470X1955-3
+
+
+0
+3
+3
+LM2940CT-5.0
+TO254P1054X470X1955-3
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -65862,6 +65883,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PS1024ALRED
+SW_PS1024ALRED
+
+
+0
+2
+2
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -84685,6 +84713,13 @@ rotary encoder
 0
 7
 6
+SN65HVD230DR
+SOIC127P599X175-8N
+
+
+0
+8
+8
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -91871,6 +91906,20 @@ Varistor
 RV_Rect_V25S440P_L26.5mm_W8.2mm_P12.7mm
 Varistor, V25S440P, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b410c42c-51d1-460e-b1d9-d105d93c9679&filename=littelfuse-varistor-ultramov25s-datasheet
 varistor
+0
+2
+2
+W25Q128JVSIQ
+SOIC127P790X216-8N
+
+
+0
+8
+8
+XT30UPB-M
+XT30UPB-M
+
+
 0
 2
 2
