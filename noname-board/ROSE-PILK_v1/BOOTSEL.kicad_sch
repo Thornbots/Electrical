@@ -259,6 +259,9 @@
         (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/ee4b99aa-294b-4c3b-9b79-fbaf11f9a74b"
           (reference "R37") (unit 1)
         )
+        (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/853a186f-a31e-46ca-9745-e888a8f62939"
+          (reference "R45") (unit 1)
+        )
       )
     )
   )
@@ -313,6 +316,9 @@
       (project "ROSE-PILK_v1"
         (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/ee4b99aa-294b-4c3b-9b79-fbaf11f9a74b"
           (reference "S1") (unit 1)
+        )
+        (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/853a186f-a31e-46ca-9745-e888a8f62939"
+          (reference "S2") (unit 1)
         )
       )
     )

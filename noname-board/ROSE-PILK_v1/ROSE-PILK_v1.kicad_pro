@@ -505,6 +505,10 @@
       "CAN1"
     ],
     [
+      "f6fb8108-5981-4014-8a4c-67c8bb5275a0",
+      "RP2041"
+    ],
+    [
       "bba6feb6-0708-4b51-a731-0bb8ba53ae80",
       "SD Card Reader"
     ],
@@ -515,6 +519,18 @@
     [
       "cc566290-d472-48a8-a9ae-4e54f87660da",
       "CAN2"
+    ],
+    [
+      "a956a0ae-b1b1-4628-88cd-75f4b9d89ecc",
+      "Flash Memory1"
+    ],
+    [
+      "853a186f-a31e-46ca-9745-e888a8f62939",
+      "BOOTSEL1"
+    ],
+    [
+      "47bf5c44-9f46-40eb-9079-d0aa3a0f2164",
+      "RP2040-Connect"
     ]
   ],
   "text_variables": {}

@@ -300,6 +300,9 @@
         (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/0210b5e9-62f8-4096-ad3b-68b9f2dd9ed6"
           (reference "U1") (unit 1)
         )
+        (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/a956a0ae-b1b1-4628-88cd-75f4b9d89ecc"
+          (reference "U10") (unit 1)
+        )
       )
       (project "RP2040"
         (path "/5f0df7f5-bb2d-4584-a103-baca83cb7710"
@@ -339,6 +342,9 @@
         (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/0210b5e9-62f8-4096-ad3b-68b9f2dd9ed6"
           (reference "C5") (unit 1)
         )
+        (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/a956a0ae-b1b1-4628-88cd-75f4b9d89ecc"
+          (reference "C34") (unit 1)
+        )
       )
       (project "RP2040"
         (path "/5f0df7f5-bb2d-4584-a103-baca83cb7710/55f46dad-ab58-488d-bc11-a836e3432a2f"
@@ -372,6 +378,9 @@
       (project "ROSE-PILK_v1"
         (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/0210b5e9-62f8-4096-ad3b-68b9f2dd9ed6"
           (reference "R3") (unit 1)
+        )
+        (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/a956a0ae-b1b1-4628-88cd-75f4b9d89ecc"
+          (reference "R44") (unit 1)
         )
       )
       (project "RP2040"
