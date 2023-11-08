@@ -786,7 +786,7 @@
     (property "Value" "SW_Push_DPDT" (at 181.61 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 181.61 68.58 0)
+    (property "Footprint" "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (at 181.61 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 181.61 68.58 0)
