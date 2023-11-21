@@ -991,8 +991,8 @@
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (at 102.87 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6de941ad-65de-4599-b1c8-1fc82c81704b))
-    (pin "2" (uuid 51568e41-e9e3-4674-974a-c2f16436984a))
+    (pin "1" (uuid 6de941ad-65de-4599-b1c8-1fc82c81704c))
+    (pin "2" (uuid 51568e41-e9e3-4674-974a-c2f16436984b))
     (instances
       (project "ROSE-PILK_v1"
         (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/7f9280f8-5c56-426f-91c5-2013c74ffd42"
