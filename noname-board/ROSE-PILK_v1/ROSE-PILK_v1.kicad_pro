@@ -531,6 +531,10 @@
     [
       "47bf5c44-9f46-40eb-9079-d0aa3a0f2164",
       "RP2040-Connect"
+    ],
+    [
+      "c0a8ca75-7b09-4261-bf6f-1ec51f609e3f",
+      "GPIO_Connect"
     ]
   ],
   "text_variables": {}
