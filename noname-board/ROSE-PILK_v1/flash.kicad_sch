@@ -363,7 +363,7 @@
     (property "Reference" "R3" (at 156.21 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 156.21 95.25 0)
+    (property "Value" "10K" (at 156.21 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 151.892 93.98 90)
