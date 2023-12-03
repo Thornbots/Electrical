@@ -1082,6 +1082,10 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f4d86fb8-b9eb-4b5e-93b9-33f4264d019c)
   )
+  (hierarchical_label "1V1" (shape input) (at 157.48 44.45 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff55e9ac-cfe2-4c5b-ab7d-c8d41ff58326)
+  )
 
   (symbol (lib_id "Device:R") (at 123.19 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
