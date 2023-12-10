@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM2940CT-5.0_NOPB"
+   (description "1A,5V,LDO Voltage Regulator,LM2940CT-5.0 Texas Instruments LM2940CT-5.0/NOPB, LDO Voltage Regulator, 1A, 5 V, 6.25  26 Vin, 3-Pin TO-220")
+   (family "TRX")
+   (package "TO254P470X1028X1955-3P")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/ds/symlink/lm2940c.pdf")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Mouser Part Number" "926-LM2940CT-5.0NOPB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940CT-5.0-NOPB?qs=X1J7HmVL2ZHd4yipOGCVKg%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LM2940CT-5.0/NOPB")
+   (gate
+    (symbol "LM2940CT-5.0_NOPB")
+    (pin "IN" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "OUT" 3 PS)
+   )
+  )
+  (symbol "LM2940CT-5.0_NOPB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P470X1028X1955-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.98 3.45)
+      (pt 8.06 3.45)
+      (pt 8.06 -1.75)
+      (pt -2.98 -1.75)
+      (pt -2.98 3.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.73 3.2)
+      (pt 7.81 3.2)
+      (pt 7.81 -1.5)
+      (pt -2.73 -1.5)
+      (pt -2.73 3.2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.73 1.93)
+      (pt -1.46 3.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.81 -1.5)
+      (pt 7.81 3.2)
+      (pt -2.73 3.2)
+      (pt -2.73 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.29)
+    (plated true)
+    (pad (layer TCOP) (round 1.935))
+    (pad (layer INNER) (round 1.935))
+    (pad (layer BCOP) (round 1.935))
+   )
+   (padstack 1
+    (hole 1.29)
+    (plated true)
+    (pad (layer TCOP) (square 1.935))
+    (pad (layer INNER) (round 1.935))
+    (pad (layer BCOP) (square 1.935))
+   )
+   (model "LM2940CT-5.0_NOPB.stp"
+    (euler 0 90 180)
+    (offset 2.5399999618530273 3.140000104904175 16.90999984741211)
+   )
+  )
+ )
+)
