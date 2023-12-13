@@ -1,4 +1,4 @@
-22234346701477588
+22239454405921747
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -18,8 +18,8 @@ BNO055
 
 
 0
-2
-2
+14
+7
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -55873,6 +55873,13 @@ heatsink
 0
 0
 0
+IMU
+IMU_BNO055
+
+
+0
+0
+0
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -62208,6 +62215,13 @@ Through hole pin header THT 2x20 2.54mm double row
 0
 86
 43
+MarblePIco
+MarblePico
+
+
+0
+40
+20
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91972,6 +91986,13 @@ SOIC127P790X216-8N
 0
 8
 8
+WP154A4SUREQBFZGC
+LED_WP154A4SUREQBFZGC
+
+
+0
+4
+4
 XT30UPB-M
 XT30UPB-M
 

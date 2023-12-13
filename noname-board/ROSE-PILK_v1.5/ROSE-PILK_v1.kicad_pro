@@ -485,26 +485,6 @@
       "power"
     ],
     [
-      "0210b5e9-62f8-4096-ad3b-68b9f2dd9ed6",
-      "Flash Memory"
-    ],
-    [
-      "7068b117-ed0e-402c-9728-e6bf64ab7ade",
-      "RP2040"
-    ],
-    [
-      "210ab0c2-9b77-4742-8f85-c7730efc701e",
-      "LED Arrray"
-    ],
-    [
-      "6e0de894-925c-49de-9455-676e538ebb3b",
-      "LEDx15"
-    ],
-    [
-      "355de603-d8f0-48b4-8541-31aa778d3838",
-      "USBC"
-    ],
-    [
       "c34ca0c5-7bce-4bc6-9986-6cfb64a47688",
       "DR16"
     ],
@@ -513,28 +493,8 @@
       "CAN1"
     ],
     [
-      "f6fb8108-5981-4014-8a4c-67c8bb5275a0",
-      "RP2041"
-    ],
-    [
-      "bba6feb6-0708-4b51-a731-0bb8ba53ae80",
-      "SD Card Reader"
-    ],
-    [
-      "ee4b99aa-294b-4c3b-9b79-fbaf11f9a74b",
-      "BOOTSEL"
-    ],
-    [
       "cc566290-d472-48a8-a9ae-4e54f87660da",
       "CAN2"
-    ],
-    [
-      "a956a0ae-b1b1-4628-88cd-75f4b9d89ecc",
-      "Flash Memory1"
-    ],
-    [
-      "853a186f-a31e-46ca-9745-e888a8f62939",
-      "BOOTSEL1"
     ],
     [
       "47bf5c44-9f46-40eb-9079-d0aa3a0f2164",
@@ -547,10 +507,6 @@
     [
       "191d2abd-2d47-43c4-8b87-17e3aeafbf2f",
       "Power_Connectors"
-    ],
-    [
-      "f379d81c-44d5-461c-b550-eab3b6e72db1",
-      "LCD_Connector"
     ]
   ],
   "text_variables": {}
