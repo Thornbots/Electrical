@@ -526,8 +526,8 @@
     (property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda" (at 38.1 74.93 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "P$1" (uuid 88a72800-0b8a-45cf-9936-109d83b66a46))
-    (pin "P$2" (uuid 715a78ff-9c9d-4d58-9a6f-f24e82680a65))
+    (pin "P$1" (uuid 82929223-5df6-4ae5-a3e2-475b5fbbd378))
+    (pin "P$2" (uuid f8923f35-ce0f-458d-8df9-452576bae025))
     (instances
       (project "ROSE-PILK_v1"
         (path "/3dfb9737-68ba-4ca9-8085-72e4f57f9e50/7f9280f8-5c56-426f-91c5-2013c74ffd42"

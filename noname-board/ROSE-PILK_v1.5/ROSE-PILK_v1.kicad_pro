@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.778,
+          "width": 1.778
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -493,12 +493,12 @@
       "CAN1"
     ],
     [
-      "cc566290-d472-48a8-a9ae-4e54f87660da",
-      "CAN2"
+      "a50dd852-2d1e-4bb7-8a2f-4a12eba0cf9f",
+      "JETSON_UART"
     ],
     [
-      "47bf5c44-9f46-40eb-9079-d0aa3a0f2164",
-      "RP2040-Connect"
+      "cc566290-d472-48a8-a9ae-4e54f87660da",
+      "CAN2"
     ],
     [
       "c0a8ca75-7b09-4261-bf6f-1ec51f609e3f",
