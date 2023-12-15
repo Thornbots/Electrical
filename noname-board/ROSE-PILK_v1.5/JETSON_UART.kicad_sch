@@ -328,7 +328,7 @@
     (property "Value" "Conn_01x04" (at 92.075 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 92.075 79.375 0)
+    (property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical" (at 92.075 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.075 79.375 0)
