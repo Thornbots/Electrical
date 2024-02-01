@@ -771,7 +771,7 @@
     (pad "P$1" thru_hole circle (at -2.5 0) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
       (net 4 "Net-(Q1-IN)") (pinfunction "+") (pintype "passive") (solder_mask_margin 0.102) (tstamp e67587f6-939d-4424-9151-38e9e5ec95c5))
     (pad "P$2" thru_hole circle (at 2.5 0) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
-      (net 19 "Net-(D17-A)") (pinfunction "-") (pintype "passive") (solder_mask_margin 0.102) (tstamp ee4e282e-c45b-4869-8262-044850e03296))
+      (net 1 "/GND") (pinfunction "-") (pintype "passive") (solder_mask_margin 0.102) (tstamp ee4e282e-c45b-4869-8262-044850e03296))
   )
 
   (footprint "PS1024ALRED:SW_PS1024ALRED" (layer "F.Cu")
