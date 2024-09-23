@@ -1054,7 +1054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RB141C1100:SW_RB141C1100"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -1122,7 +1122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RB141C1100:SW_RB141C1100"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -1266,7 +1266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RB141C1100:SW_RB141C1100"
 			(at 106.68 91.44 0)
 			(effects
 				(font
