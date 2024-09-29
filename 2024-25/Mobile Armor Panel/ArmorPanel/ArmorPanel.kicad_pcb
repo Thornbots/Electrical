@@ -3474,7 +3474,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "4bfcff0f-6cca-4ed0-8e63-dba35d95f98f")
 	)
 	(gr_arc
@@ -3485,7 +3485,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "6ee682cc-5387-4f17-862d-481c4a962bd4")
 	)
 	(gr_line
@@ -3495,7 +3495,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "75bb3435-cf0f-40a6-9497-87f715a24cb7")
 	)
 	(gr_line
@@ -3505,18 +3505,18 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "b3866d44-e3a8-45ea-8e3e-5434a60f33f2")
 	)
 	(gr_arc
 		(start 60.814949 23.603949)
-		(mid 62.4205 24.426805)
+		(mid 62.420498 24.426807)
 		(end 62.973949 26.143949)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "b3bb5794-1666-408c-ae6e-e6c610171e55")
 	)
 	(gr_line
@@ -3526,7 +3526,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "bd4681dc-3560-4229-99ee-b512153f14cb")
 	)
 	(gr_line
@@ -3536,7 +3536,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "ca1f1269-8e08-4840-9d33-763215b5555d")
 	)
 	(gr_arc
@@ -3547,7 +3547,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "e7e6d160-e567-436c-bc3f-8d619b1fab56")
 	)
 	(gr_text "This is the \nPower Boost\nCharger Module"
@@ -3561,39 +3561,6 @@
 			)
 			(justify left bottom)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "50ac2057-cb1e-4636-8e5c-e94ff6461bb7")
-		(pts
-			(xy 27.431949 34.411449) (xy 63.014949 34.425949)
-		)
-		(height -18.366771)
-		(gr_text "1.4009 in"
-			(at 45.231402 14.90193 359.9766521)
-			(layer "Dwgs.User")
-			(uuid "50ac2057-cb1e-4636-8e5c-e94ff6461bb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type aligned)
