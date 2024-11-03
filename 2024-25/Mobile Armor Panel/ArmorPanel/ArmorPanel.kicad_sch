@@ -515,6 +515,378 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0) hide)
@@ -649,17 +1021,27 @@
 			)
 		)
 	)
-	(no_connect
-		(at 161.29 75.184)
-		(uuid "175ae6b4-38b6-4776-b226-31ccdbab62c3")
+	(junction
+		(at 180.848 83.312)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4ca12a6-5571-401f-b627-b93b078fd19d")
 	)
 	(no_connect
-		(at 161.29 72.644)
+		(at 120.65 81.28)
 		(uuid "4437f83d-e592-4f1d-961f-8c15f15cc768")
 	)
 	(no_connect
-		(at 161.29 67.564)
+		(at 222.504 81.026)
+		(uuid "b7217e90-dfc3-49df-9e21-134dfa5d167b")
+	)
+	(no_connect
+		(at 120.65 76.2)
 		(uuid "ba3bec63-3b4a-42e7-bb5b-4c26f58935fc")
+	)
+	(no_connect
+		(at 223.266 67.564)
+		(uuid "bcf01f4c-2a66-44bc-a88f-7099186a730a")
 	)
 	(wire
 		(pts
@@ -673,7 +1055,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.804) (xy 151.13 82.804)
+			(xy 185.42 111.76) (xy 190.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8fc3ba-e502-4afe-bd34-66f2abb45b50")
+	)
+	(wire
+		(pts
+			(xy 120.65 91.44) (xy 110.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -693,7 +1085,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 72.644) (xy 151.13 72.644)
+			(xy 198.12 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b73c25-0a62-4cba-89b0-2fd7578e7ce7")
+	)
+	(wire
+		(pts
+			(xy 180.848 95.25) (xy 186.436 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e71bd10-168a-48e9-bce5-98de91a9081f")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 110.49 81.28)
 		)
 		(stroke
 			(width 0)
@@ -703,7 +1115,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 67.564) (xy 151.13 67.564)
+			(xy 203.2 95.25) (xy 196.596 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43eb8821-617a-4af0-9e88-ab687a416546")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 110.49 76.2)
 		)
 		(stroke
 			(width 0)
@@ -733,6 +1155,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.848 95.25) (xy 180.848 83.312)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a28c6f7-c34d-46b5-a17a-9b1bb44ca214")
+	)
+	(wire
+		(pts
 			(xy 224.282 72.644) (xy 231.394 72.644)
 		)
 		(stroke
@@ -743,7 +1175,27 @@
 	)
 	(wire
 		(pts
-			(xy 224.282 81.026) (xy 231.394 81.026)
+			(xy 180.848 72.39) (xy 180.848 83.312)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747340c6-bf71-4c68-b749-9b610498ab0f")
+	)
+	(wire
+		(pts
+			(xy 170.18 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82407774-0516-492e-af5f-9a25c881ca73")
+	)
+	(wire
+		(pts
+			(xy 222.504 81.026) (xy 231.394 81.026)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +1205,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 77.724) (xy 151.13 77.724)
+			(xy 120.65 86.36) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 85.344) (xy 151.13 85.344)
+			(xy 120.65 93.98) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.282 67.564) (xy 231.394 67.564)
+			(xy 223.266 67.564) (xy 231.394 67.564)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 75.184) (xy 151.13 75.184)
+			(xy 120.65 83.82) (xy 110.49 83.82)
 		)
 		(stroke
 			(width 0)
@@ -833,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 80.264) (xy 151.13 80.264)
+			(xy 120.65 88.9) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -843,7 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 70.104) (xy 151.13 70.104)
+			(xy 120.65 78.74) (xy 110.49 78.74)
 		)
 		(stroke
 			(width 0)
@@ -863,7 +1315,7 @@
 	)
 	(text "NOTE :\nPIN 6 (LEDG)\nIS ACTUALLY LOW \nBATTERY, WE ARE\nUSING IT TO TELL\nWHEN THE PANEL IS \nLOW ON BATTERY."
 		(exclude_from_sim no)
-		(at 136.398 104.394 0)
+		(at 95.758 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -896,7 +1348,7 @@
 	)
 	(text "PowerBoost 500 Charger - \nRechargeable 5V Lipo USB Boost \n@ 500mA+\n\nThis is it's own connector,\nbut I have it as an object for \nreference so I don't forget\nwhere things are coming from."
 		(exclude_from_sim no)
-		(at 134.874 62.738 0)
+		(at 94.234 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -906,7 +1358,7 @@
 		(uuid "97f80230-b69c-4b17-98ca-ea0869e306c8")
 	)
 	(label "GND"
-		(at 161.29 77.724 180)
+		(at 120.65 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -938,19 +1390,8 @@
 		)
 		(uuid "17ad094e-98dc-4d62-8cd3-78d990d04787")
 	)
-	(label "5V"
-		(at 180.848 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25325bca-027c-470f-947e-a39f2f206989")
-	)
 	(label "EN"
-		(at 161.29 75.184 180)
+		(at 120.65 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -959,17 +1400,6 @@
 			(justify right bottom)
 		)
 		(uuid "2ef2e6ed-948f-4819-a115-578b4e704c00")
-	)
-	(label "5V"
-		(at 180.848 83.312 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3acacb2c-5d56-49e5-8b94-87cbdc849d1f")
 	)
 	(label "LEDB"
 		(at 224.282 86.106 0)
@@ -983,7 +1413,7 @@
 		(uuid "3e7f1d72-d4da-48f0-b062-8f8c92fee904")
 	)
 	(label "GND"
-		(at 161.29 82.804 180)
+		(at 120.65 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1003,6 +1433,17 @@
 			(justify left bottom)
 		)
 		(uuid "4dce2e00-23d7-4936-9483-e6625f592ade")
+	)
+	(label "LB"
+		(at 170.18 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53b4c082-899c-4073-879e-8e682d018012")
 	)
 	(label "LEDG"
 		(at 224.282 67.564 0)
@@ -1037,6 +1478,17 @@
 		)
 		(uuid "6260fa0c-e116-4500-bf7b-e324fb7daef7")
 	)
+	(label "EN"
+		(at 203.2 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "638f5f7c-3a4f-4c82-8a8a-3fe8cff91a7b")
+	)
 	(label "LEDR"
 		(at 203.708 72.39 180)
 		(fields_autoplaced yes)
@@ -1047,6 +1499,17 @@
 			(justify right bottom)
 		)
 		(uuid "713fdc32-f895-434f-9c59-54d9ec356e8a")
+	)
+	(label "GND"
+		(at 180.848 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77e2ae22-bd79-4bbb-a28c-4f445ad572b6")
 	)
 	(label "LEDR"
 		(at 224.282 83.566 0)
@@ -1060,7 +1523,7 @@
 		(uuid "897dbe80-98ee-4eb0-903d-4025faf9ce98")
 	)
 	(label "Bat"
-		(at 161.29 72.644 180)
+		(at 120.65 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1071,7 +1534,7 @@
 		(uuid "9ff38f45-ef12-48d3-983c-1e82b4854f25")
 	)
 	(label "GND"
-		(at 161.29 70.104 180)
+		(at 120.65 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1093,7 +1556,7 @@
 		(uuid "a6c05303-20e5-49db-8aa6-0e169e4276df")
 	)
 	(label "5V"
-		(at 161.29 85.344 180)
+		(at 120.65 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1103,8 +1566,19 @@
 		)
 		(uuid "ab7a0bbb-fccf-4fd9-af01-1a6487830ac9")
 	)
+	(label "GND"
+		(at 207.01 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c81eb11c-a76a-47d2-8796-5ac0825b6f95")
+	)
 	(label "USB"
-		(at 161.29 67.564 180)
+		(at 120.65 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1114,8 +1588,8 @@
 		)
 		(uuid "d4eac1e7-20db-4bdb-8c3f-6977b138cf5c")
 	)
-	(label "LEDG"
-		(at 161.29 80.264 180)
+	(label "LB"
+		(at 120.65 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1124,6 +1598,202 @@
 			(justify right bottom)
 		)
 		(uuid "eb8ed08c-21aa-4bff-8249-8effe8264d4f")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 210.566 30.734 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00cdf6da-444d-40ea-8d93-0b906854da69")
+		(property "Reference" "H3"
+			(at 213.36 29.4639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 213.36 32.0039 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 210.566 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.566 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 210.566 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d82fe22-4937-47a8-a6a7-a09fdafac84e")
+		(property "Reference" "D1"
+			(at 195.8975 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LB_LED"
+			(at 195.8975 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e353179-2b31-4332-9307-5e9ac4e774cc")
+		)
+		(pin "1"
+			(uuid "318f2db4-f531-43b1-9ca6-8d9dda52a1dc")
+		)
+		(instances
+			(project ""
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 249.174 32.258 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e0936c9-a676-4477-b89a-7dbfabaa874f")
+		(property "Reference" "H4"
+			(at 252.73 30.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 252.73 33.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 249.174 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 249.174 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 249.174 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
@@ -1135,8 +1805,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29eb80cd-beb4-4210-91c3-199dee404c20")
-		(property "Reference" "SW2"
-			(at 192.024 76.454 0)
+		(property "Reference" "SW_BLUE1"
+			(at 192.024 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,14 +1814,14 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 192.024 78.994 0)
+			(at 192.024 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RB141C1100:SW_RB141C1100"
 			(at 192.024 83.312 0)
 			(effects
 				(font
@@ -1187,7 +1857,75 @@
 		(instances
 			(project "ArmorPanel"
 				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
-					(reference "SW2")
+					(reference "SW_BLUE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 191.516 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4906c601-8ab4-4c73-bfe5-230facb1b980")
+		(property "Reference" "SW_EN1"
+			(at 191.516 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 191.516 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RB141C1100:SW_RB141C1100"
+			(at 191.516 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.516 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.516 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4c099f-13c8-4d30-a1ae-6f97e69ced02")
+		)
+		(pin "2"
+			(uuid "1422ffd1-f2ab-43f9-9aac-1b6d91f79fc6")
+		)
+		(instances
+			(project "ArmorPanel"
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "SW_EN1")
 					(unit 1)
 				)
 			)
@@ -1203,7 +1941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57d8a383-6fec-4572-8352-0b2420f0db59")
-		(property "Reference" "LEDL"
+		(property "Reference" "LEDL1"
 			(at 239.014 67.564 0)
 			(effects
 				(font
@@ -1221,7 +1959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 236.474 67.564 0)
 			(effects
 				(font
@@ -1263,7 +2001,7 @@
 		(instances
 			(project "ArmorPanel"
 				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
-					(reference "LEDL")
+					(reference "LEDL1")
 					(unit 1)
 				)
 			)
@@ -1271,7 +2009,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 146.05 75.184 0)
+		(at 105.41 83.82 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1280,8 +2018,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "657e645b-d273-4a9b-bd2e-9087bdccd48a")
-		(property "Reference" "CHARGER"
-			(at 143.002 75.184 0)
+		(property "Reference" "CHARGER1"
+			(at 102.362 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +2028,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 143.002 77.724 0)
+			(at 102.362 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +2037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 75.184 0)
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +2046,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1944"
-			(at 146.05 75.184 0)
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +2055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 75.184 0)
+			(at 105.41 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +2090,7 @@
 		(instances
 			(project "ArmorPanel"
 				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
-					(reference "CHARGER")
+					(reference "CHARGER1")
 					(unit 1)
 				)
 			)
@@ -1368,7 +2106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d828029-1ff9-4da2-aa28-67cad121f71a")
-		(property "Reference" "LEDR"
+		(property "Reference" "LEDR1"
 			(at 238.76 81.026 0)
 			(effects
 				(font
@@ -1386,7 +2124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 236.474 81.026 0)
 			(effects
 				(font
@@ -1428,7 +2166,71 @@
 		(instances
 			(project "ArmorPanel"
 				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
-					(reference "LEDR")
+					(reference "LEDR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 30.734 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9e1b6e-bd02-4e26-9502-4bc8735d85ca")
+		(property "Reference" "H2"
+			(at 189.23 29.4639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 32.0039 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 186.69 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1444,8 +2246,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a27f2280-3d64-468f-a4c8-94eda95e19fb")
-		(property "Reference" "SW1"
-			(at 192.024 65.532 0)
+		(property "Reference" "SW_RED1"
+			(at 192.024 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,14 +2255,14 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 192.024 68.072 0)
+			(at 192.024 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RB141C1100:SW_RB141C1100"
 			(at 192.024 72.39 0)
 			(effects
 				(font
@@ -1496,7 +2298,139 @@
 		(instances
 			(project "ArmorPanel"
 				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
-					(reference "SW1")
+					(reference "SW_RED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 163.83 27.686 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0337ca-b7f8-48db-b1cc-a19aa03369fc")
+		(property "Reference" "H1"
+			(at 166.37 26.4159 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.37 28.9559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 163.83 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.83 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f75c8b63-b3ed-446c-a04c-1a382a894cb0")
+		(property "Reference" "R1"
+			(at 181.61 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 181.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 181.61 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "349ca9fd-2171-47b8-b895-01f0afdb9564")
+		)
+		(pin "1"
+			(uuid "2a516291-c750-4d54-b43a-1b17d31e5f3d")
+		)
+		(instances
+			(project ""
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "R1")
 					(unit 1)
 				)
 			)
