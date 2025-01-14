@@ -651,6 +651,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 82.55) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a10a70-4267-4aeb-b8fa-465744c2618b")
+	)
+	(wire
+		(pts
 			(xy 95.25 82.55) (xy 101.6 82.55)
 		)
 		(stroke
@@ -688,6 +698,26 @@
 			(type default)
 		)
 		(uuid "3d4a1897-233b-4c12-9aa2-d549f27f1a72")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555ed25a-64ab-4f5f-92f4-af839ba8e17f")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df1b83b-4e00-452e-904a-ea6efcd26ba9")
 	)
 	(wire
 		(pts
@@ -841,6 +871,17 @@
 		)
 		(uuid "18379f69-95d5-4e15-aafa-f3c378936680")
 	)
+	(label "LEDR"
+		(at 114.3 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "316982d1-e6d2-4866-b5ac-403cc73e9134")
+	)
 	(label "EN"
 		(at 95.25 73.66 0)
 		(fields_autoplaced yes)
@@ -940,6 +981,17 @@
 		)
 		(uuid "66f79418-890b-4fd5-af43-a7f040dd7231")
 	)
+	(label "GND"
+		(at 114.3 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72cbce57-3a11-496e-8589-6d1da0308591")
+	)
 	(label "LEDB"
 		(at 127 96.52 0)
 		(fields_autoplaced yes)
@@ -1016,6 +1068,17 @@
 			(justify left bottom)
 		)
 		(uuid "db15864d-147d-4d20-9d0f-a4f20594a09c")
+	)
+	(label "LEDB"
+		(at 114.3 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba68b31-8a66-46d1-b72c-5cee6011723c")
 	)
 	(label "Bat"
 		(at 77.47 86.36 0)
