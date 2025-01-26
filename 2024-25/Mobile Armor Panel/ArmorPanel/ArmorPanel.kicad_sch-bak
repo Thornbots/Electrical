@@ -1032,6 +1032,10 @@
 		(uuid "4437f83d-e592-4f1d-961f-8c15f15cc768")
 	)
 	(no_connect
+		(at 222.504 81.026)
+		(uuid "b7217e90-dfc3-49df-9e21-134dfa5d167b")
+	)
+	(no_connect
 		(at 120.65 76.2)
 		(uuid "ba3bec63-3b4a-42e7-bb5b-4c26f58935fc")
 	)
@@ -1068,6 +1072,16 @@
 			(type default)
 		)
 		(uuid "1043be12-4a5e-4009-bf25-188c6689929e")
+	)
+	(wire
+		(pts
+			(xy 224.282 78.486) (xy 231.394 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2312db36-772c-4332-a4e0-bc9a5dd5a349")
 	)
 	(wire
 		(pts
@@ -1108,16 +1122,6 @@
 			(type default)
 		)
 		(uuid "43eb8821-617a-4af0-9e88-ab687a416546")
-	)
-	(wire
-		(pts
-			(xy 73.152 123.19) (xy 78.232 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471bbd81-2c43-47b1-9fdf-29491b950caf")
 	)
 	(wire
 		(pts
@@ -1191,6 +1195,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.504 81.026) (xy 231.394 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c2e41a-5f45-49f0-8858-daccf27efe67")
+	)
+	(wire
+		(pts
 			(xy 120.65 86.36) (xy 110.49 86.36)
 		)
 		(stroke
@@ -1208,6 +1222,16 @@
 			(type default)
 		)
 		(uuid "8a5c3939-3fee-427e-9f1e-77414f7f1277")
+	)
+	(wire
+		(pts
+			(xy 224.282 86.106) (xy 231.394 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f15bf0-71f9-47b8-8dec-0a14bcf7c881")
 	)
 	(wire
 		(pts
@@ -1231,13 +1255,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.152 131.064) (xy 78.232 131.064)
+			(xy 224.282 83.566) (xy 231.394 83.566)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b093f7fa-5a2b-45a4-82d0-575db490c3f2")
+		(uuid "b2436b4f-c279-4fdf-8dc1-c24c84c131ef")
 	)
 	(wire
 		(pts
@@ -1268,16 +1292,6 @@
 			(type default)
 		)
 		(uuid "d763420c-815e-4bf8-95aa-a4427cf1515d")
-	)
-	(wire
-		(pts
-			(xy 73.152 126.746) (xy 78.232 126.746)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4aa560f-abed-445e-adf4-6dfddccfe8c6")
 	)
 	(wire
 		(pts
@@ -1387,6 +1401,17 @@
 		)
 		(uuid "2ef2e6ed-948f-4819-a115-578b4e704c00")
 	)
+	(label "LEDB"
+		(at 224.282 86.106 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e7f1d72-d4da-48f0-b062-8f8c92fee904")
+	)
 	(label "GND"
 		(at 120.65 91.44 180)
 		(fields_autoplaced yes)
@@ -1397,6 +1422,17 @@
 			(justify right bottom)
 		)
 		(uuid "4d60df24-98bd-48db-9c68-e036f8c8af49")
+	)
+	(label "LEDG"
+		(at 224.282 81.026 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dce2e00-23d7-4936-9483-e6625f592ade")
 	)
 	(label "LB"
 		(at 170.18 111.76 180)
@@ -1431,6 +1467,17 @@
 		)
 		(uuid "5ed4520d-828c-43c9-829f-860c9d252a30")
 	)
+	(label "5V"
+		(at 224.282 78.486 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6260fa0c-e116-4500-bf7b-e324fb7daef7")
+	)
 	(label "EN"
 		(at 203.2 95.25 0)
 		(fields_autoplaced yes)
@@ -1463,6 +1510,17 @@
 			(justify left bottom)
 		)
 		(uuid "77e2ae22-bd79-4bbb-a28c-4f445ad572b6")
+	)
+	(label "LEDR"
+		(at 224.282 83.566 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "897dbe80-98ee-4eb0-903d-4025faf9ce98")
 	)
 	(label "Bat"
 		(at 120.65 81.28 180)
@@ -2039,6 +2097,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 236.474 81.026 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d828029-1ff9-4da2-aa28-67cad121f71a")
+		(property "Reference" "LEDR1"
+			(at 238.76 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 238.76 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 236.474 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.474 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.474 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c8d481f-2196-40ab-bb80-fb952510d28a")
+		)
+		(pin "2"
+			(uuid "23b99d17-44d3-4a4b-a232-28d11987ec95")
+		)
+		(pin "3"
+			(uuid "1a4b61bb-6b5d-42df-a26c-8a5c530ce253")
+		)
+		(pin "4"
+			(uuid "f523acd4-63b6-45b0-92ab-8cc25ad8898b")
+		)
+		(instances
+			(project "ArmorPanel"
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
+					(reference "LEDR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 186.69 30.734 0)
 		(unit 1)
@@ -2298,74 +2432,6 @@
 				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
 					(reference "R1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 78.232 121.666)
-		(size 12.7 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c88fbdc2-2fb6-452f-aae3-7fc6e440ab15")
-		(property "Sheetname" "LED"
-			(at 78.232 120.9544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LED.kicad_sch"
-			(at 78.232 133.6806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5V" input
-			(at 78.232 123.19 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "67f630c7-c442-4afd-95cc-5bcd54dec9d0")
-		)
-		(pin "LEDR" input
-			(at 78.232 126.746 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "719b3a64-255a-4a3e-8884-9992f87f4fd8")
-		)
-		(pin "LEDB" input
-			(at 78.232 131.064 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "511f84ef-819a-4fb1-833d-d9d3fc71d406")
-		)
-		(instances
-			(project "ArmorPanel"
-				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505"
-					(page "2")
 				)
 			)
 		)

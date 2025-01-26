@@ -1,0 +1,1006 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d72e7b9c-c885-4b06-9858-fb97c12bba45")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 107.188 68.072)
+		(uuid "0b934149-a48a-4474-9c65-d8e2f508a39a")
+	)
+	(no_connect
+		(at 95.25 86.106)
+		(uuid "5d90debf-2be1-47a5-93fc-c301062b964b")
+	)
+	(no_connect
+		(at 66.04 118.11)
+		(uuid "ecbff747-dfa6-4b9a-a679-27e71bf926d1")
+	)
+	(no_connect
+		(at 133.35 108.966)
+		(uuid "f44852fe-207f-4ff8-8e3b-08daa187b159")
+	)
+	(wire
+		(pts
+			(xy 108.966 65.532) (xy 116.078 65.532)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03862955-5b20-4678-b4da-63a5d8527f0c")
+	)
+	(wire
+		(pts
+			(xy 67.818 120.65) (xy 74.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0c9381-e748-4a52-881c-01be56d91c30")
+	)
+	(wire
+		(pts
+			(xy 108.966 73.152) (xy 116.078 73.152)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eba1cc0-98e2-485e-8133-7053de9872a1")
+	)
+	(wire
+		(pts
+			(xy 133.35 108.966) (xy 142.24 108.966)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cf656f-1221-40ad-bf50-34d17ca2c708")
+	)
+	(wire
+		(pts
+			(xy 108.966 70.612) (xy 116.078 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5c920a-3269-461c-af1a-e1b3b410bd6d")
+	)
+	(wire
+		(pts
+			(xy 66.04 118.11) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e4cbf3-b9c3-4451-ab02-89d79e25497b")
+	)
+	(wire
+		(pts
+			(xy 97.028 88.646) (xy 104.14 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b41b50-58b1-48c8-bb9b-c7c1ede3a426")
+	)
+	(wire
+		(pts
+			(xy 135.128 111.506) (xy 142.24 111.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867f8ac2-65f0-45f5-bda3-3191b4e37ce1")
+	)
+	(wire
+		(pts
+			(xy 107.188 68.072) (xy 116.078 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874f5bb8-90f8-40ba-8898-a6e3c48bae31")
+	)
+	(wire
+		(pts
+			(xy 97.028 91.186) (xy 104.14 91.186)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b2fe57-4cbf-490e-8292-292797ada4c6")
+	)
+	(wire
+		(pts
+			(xy 97.028 83.566) (xy 104.14 83.566)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f7fdad-bea4-4f3d-9742-2238e9a54a6d")
+	)
+	(wire
+		(pts
+			(xy 135.128 114.046) (xy 142.24 114.046)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944dbf7e-9dc1-46ab-a77c-6865e64a35b3")
+	)
+	(wire
+		(pts
+			(xy 95.25 86.106) (xy 104.14 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7028f7-9976-4e63-a57e-8fc818574ca7")
+	)
+	(wire
+		(pts
+			(xy 135.128 106.426) (xy 142.24 106.426)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b9bd2b-400e-4f07-8981-f5a8d237c59e")
+	)
+	(wire
+		(pts
+			(xy 67.818 115.57) (xy 74.93 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc54143f-e731-45dd-a6f4-1272e647f424")
+	)
+	(wire
+		(pts
+			(xy 67.818 123.19) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7bfdd2-ad61-4f19-9509-61382293cc4a")
+	)
+	(label "LEDB"
+		(at 67.818 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "088e482f-0d34-4486-bb58-9b4ab961f78b")
+	)
+	(label "LEDR"
+		(at 108.966 70.612 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d55ab35-3d7d-4716-a71a-637f4f5bb0f4")
+	)
+	(label "LEDB"
+		(at 108.966 73.152 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c993f8d-2be3-470c-a07d-174980780ede")
+	)
+	(label "5V"
+		(at 67.818 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e19a439-e836-467b-a061-b79a7dca80cd")
+	)
+	(label "5V"
+		(at 108.966 65.532 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39ec45b6-507d-474f-8862-5cb99d925795")
+	)
+	(label "LEDR"
+		(at 135.128 111.506 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a7e3bd0-19df-48f1-8b6d-7a889f5cd7ad")
+	)
+	(label "LEDG"
+		(at 135.128 108.966 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4726532a-309a-45b1-ba49-53a6fbbc58fb")
+	)
+	(label "LEDR"
+		(at 97.028 88.646 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4feffab1-610c-44c3-95f9-0b834c974f16")
+	)
+	(label "5V"
+		(at 135.128 106.426 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ba10af7-eb11-421b-83d4-06cb49dea2c6")
+	)
+	(label "LEDB"
+		(at 97.028 91.186 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86c50735-9ed2-4be3-a611-30b6afcf2e6b")
+	)
+	(label "LEDB"
+		(at 135.128 114.046 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8a2efb3-6ba0-4696-b56e-5b1f0bb5cc5d")
+	)
+	(label "LEDG"
+		(at 97.028 86.106 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acd93080-5d65-4ed6-9851-38b1b797e09b")
+	)
+	(label "LEDG"
+		(at 67.818 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea49a49-151d-48d9-ae2a-108efe3b140a")
+	)
+	(label "LEDG"
+		(at 108.966 68.072 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c01bf7cc-9f57-4f39-a90c-2c1897bacb57")
+	)
+	(label "5V"
+		(at 97.028 83.566 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca685ecc-74d4-4d15-95d7-e54bc9cd025a")
+	)
+	(label "LEDR"
+		(at 67.818 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4dc7ef9-344b-4d89-85e9-ad11da005f0e")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 108.966 65.532 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3007bdcf-d043-4021-a4a7-d3ea042a4902")
+	)
+	(hierarchical_label "LEDB"
+		(shape input)
+		(at 108.966 73.152 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "387c0ee4-22de-493f-96d7-737d14441060")
+	)
+	(hierarchical_label "LEDB"
+		(shape input)
+		(at 135.128 114.046 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ab8a2a1-ac49-4d0c-87c0-e100b4d51e2e")
+	)
+	(hierarchical_label "LEDR"
+		(shape input)
+		(at 97.028 88.646 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81663d45-bb0b-4821-9348-440f9ba1d0b3")
+	)
+	(hierarchical_label "LEDR"
+		(shape input)
+		(at 67.818 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87d568c2-dc50-47a0-9e91-8c548bc3e494")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 97.028 83.566 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac524a8d-c86e-43f8-a096-fce6be0e68e0")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 135.128 106.426 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1cfa515-1928-4c01-bbc3-2955656549bb")
+	)
+	(hierarchical_label "LEDB"
+		(shape input)
+		(at 97.028 91.186 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caed86cb-1478-4d8d-8887-06779f7ba84f")
+	)
+	(hierarchical_label "LEDR"
+		(shape input)
+		(at 135.128 111.506 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbdaaa77-9ba5-4e9e-9aec-c5d4ed541227")
+	)
+	(hierarchical_label "LEDB"
+		(shape input)
+		(at 67.818 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4f3d5e5-376a-4ec9-98c7-4da09a07a6fe")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 67.818 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6fe8a1b-15cf-4416-ab67-d900d15581f1")
+	)
+	(hierarchical_label "LEDR"
+		(shape input)
+		(at 108.966 70.612 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb9c715b-72d2-4b01-91b3-6d8aa9a6ded5")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.158 68.072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "347e5d72-90b3-404a-90b4-972950219c56")
+		(property "Reference" "LEDR1"
+			(at 123.444 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 123.444 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 121.158 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.158 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.158 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed47899c-c5cd-41a0-9548-9d323acf42f1")
+		)
+		(pin "2"
+			(uuid "7d057e29-00fe-41b9-a273-bd8bbf5687d3")
+		)
+		(pin "3"
+			(uuid "6eae16c4-7301-41b2-bce5-7629e90b8acd")
+		)
+		(pin "4"
+			(uuid "caf01fd7-6592-480b-b32d-19676b355a3c")
+		)
+		(instances
+			(project "ArmorPanel"
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505/c88fbdc2-2fb6-452f-aae3-7fc6e440ab15"
+					(reference "LEDR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 147.32 108.966 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1e2722-34be-4aab-b072-a60691a5dd18")
+		(property "Reference" "LEDR3"
+			(at 149.606 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 149.606 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 147.32 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4f3076-d443-4705-9f8f-020d0fe68194")
+		)
+		(pin "2"
+			(uuid "f068828c-5657-4004-b4b0-4e3728fbd59f")
+		)
+		(pin "3"
+			(uuid "b2197f15-7fcc-4488-a854-b9982e35ade0")
+		)
+		(pin "4"
+			(uuid "a6830959-253a-4467-ab47-ccac73542924")
+		)
+		(instances
+			(project "ArmorPanel"
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505/c88fbdc2-2fb6-452f-aae3-7fc6e440ab15"
+					(reference "LEDR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 109.22 86.106 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d74ed2-7395-46d2-adc5-eaf7d2d36535")
+		(property "Reference" "LEDR2"
+			(at 111.506 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 111.506 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 109.22 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7172ed5-d5a7-4b96-b3a2-cb7d3323f5cb")
+		)
+		(pin "2"
+			(uuid "ace50532-9aec-453f-b653-4c3afb2c7794")
+		)
+		(pin "3"
+			(uuid "a49773f2-09a0-4d6a-8f24-8ee65adf2daf")
+		)
+		(pin "4"
+			(uuid "36c3df73-3bcc-4923-9dd3-db138a5168b1")
+		)
+		(instances
+			(project "ArmorPanel"
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505/c88fbdc2-2fb6-452f-aae3-7fc6e440ab15"
+					(reference "LEDR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 80.01 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcac971b-a4c8-4c40-8962-e4e209966665")
+		(property "Reference" "LEDR4"
+			(at 82.296 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 82.296 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cbf627a-8404-41e0-a593-01413bad4019")
+		)
+		(pin "2"
+			(uuid "ab4d6f97-49e9-478d-a803-d960db7a6572")
+		)
+		(pin "3"
+			(uuid "63b19ed6-0291-455a-9ea4-017d60de81ae")
+		)
+		(pin "4"
+			(uuid "6eb62f6d-3758-49ca-9490-dbbc02066cbc")
+		)
+		(instances
+			(project "ArmorPanel"
+				(path "/f5460c99-16a1-4ee3-9d29-5af66a806505/c88fbdc2-2fb6-452f-aae3-7fc6e440ab15"
+					(reference "LEDR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
