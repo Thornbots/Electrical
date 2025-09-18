@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Libraryy")(type "KiCad")(uri "C:/Users/teaneyje/Documents/Electrical/2025-26/Onboarding/Component Library/Libraryy.pretty")(options "")(descr "Components for Onboarding 2025-2026"))
+)
