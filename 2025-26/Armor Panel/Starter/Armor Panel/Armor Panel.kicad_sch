@@ -735,6 +735,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT_MSM"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_MSM"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -13.97 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw, center OFF position"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch spdt single-pole double-throw ON-OFF-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_MSM_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_MSM_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -917,6 +1104,12 @@
 		(uuid "e56135c6-d898-4ba3-ad08-2717cad2f267")
 	)
 	(junction
+		(at 149.86 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e89e0c2-b420-4c92-a7ea-f8c40d3e121d")
+	)
+	(junction
 		(at 130.81 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -934,12 +1127,6 @@
 		(color 0 0 0 0)
 		(uuid "93cf975b-5d86-46f2-b3e0-416ef18e8ba6")
 	)
-	(junction
-		(at 113.284 83.312)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d007d48b-23b6-4bce-aea2-26944bff307a")
-	)
 	(no_connect
 		(at 97.79 80.01)
 		(uuid "54f98ed5-1735-4ffa-b86e-457a106ba136")
@@ -950,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.284 95.25) (xy 118.872 95.25)
+			(xy 118.11 95.25) (xy 118.872 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1000,13 +1187,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.284 72.39) (xy 119.38 72.39)
+			(xy 147.32 74.93) (xy 149.86 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34f732b1-7b14-456b-ae2e-17b41413eede")
+		(uuid "4c5d6fe1-d9de-42c9-a051-89a2dc77ff4f")
 	)
 	(wire
 		(pts
@@ -1027,6 +1214,16 @@
 			(type default)
 		)
 		(uuid "5a80aa56-0fb5-4c43-acb9-d91e9a2f17b4")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9a0cde-39d7-423a-993e-eb26fa406c9d")
 	)
 	(wire
 		(pts
@@ -1060,6 +1257,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775876dc-de4a-4ed3-9806-1748c6e2b9c4")
+	)
+	(wire
+		(pts
 			(xy 114.808 123.19) (xy 130.81 123.19)
 		)
 		(stroke
@@ -1077,16 +1284,6 @@
 			(type default)
 		)
 		(uuid "8230a668-e2bb-49b5-ac24-c4c988600246")
-	)
-	(wire
-		(pts
-			(xy 129.54 72.39) (xy 136.144 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8981cf75-a44a-45e4-a157-058d851f06b3")
 	)
 	(wire
 		(pts
@@ -1120,13 +1317,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.312) (xy 136.144 83.312)
+			(xy 149.86 80.01) (xy 157.48 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7cd28e8-a6ac-4724-ba58-34a7977efac5")
+		(uuid "ae8042d9-a3d7-4b4d-8b46-3570990e56af")
 	)
 	(wire
 		(pts
@@ -1137,16 +1334,6 @@
 			(type default)
 		)
 		(uuid "e78cadbf-a77d-4d61-a4ad-f21d6fb59b01")
-	)
-	(wire
-		(pts
-			(xy 113.284 83.312) (xy 119.38 83.312)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea2b5e90-7018-4bf9-8f44-9a09cbc0bf5e")
 	)
 	(wire
 		(pts
@@ -1170,23 +1357,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.284 95.25) (xy 113.284 83.312)
+			(xy 118.11 77.47) (xy 118.11 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f181ed53-bf26-4792-a27e-fed92a1ddc25")
-	)
-	(wire
-		(pts
-			(xy 113.284 72.39) (xy 113.284 83.312)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f89eb71e-57f8-48c5-a986-6014124cfba1")
 	)
 	(wire
 		(pts
@@ -1249,7 +1426,7 @@
 		(uuid "2731bf3a-7f7a-41fe-8ac4-4473d44f28fc")
 	)
 	(label "GND"
-		(at 113.284 72.39 0)
+		(at 118.11 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1259,7 +1436,7 @@
 		(uuid "2c7b3a60-7a5b-407d-88ea-878969685253")
 	)
 	(label "LEDB"
-		(at 136.144 83.312 180)
+		(at 157.48 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1359,7 +1536,7 @@
 		(uuid "f4065c5c-bfa2-425c-9dcd-080d056389d9")
 	)
 	(label "LEDR"
-		(at 136.144 72.39 180)
+		(at 157.48 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1497,74 +1674,6 @@
 			(project "Armor Panel"
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 124.46 83.312 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29eb80cd-beb4-4210-91c3-199dee404c20")
-		(property "Reference" "SW_BLUE1"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 124.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RB141C1100:SW_RB141C1100"
-			(at 124.46 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c242d7c3-ef17-4fc7-8395-b145dceb3aad")
-		)
-		(pin "2"
-			(uuid "b8732c4c-dad4-4bf6-b820-7729470bf2f5")
-		)
-		(instances
-			(project "Armor Panel"
-				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "SW_BLUE1")
 					(unit 1)
 				)
 			)
@@ -1728,6 +1837,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT_MSM")
+		(at 144.78 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7def4808-00c2-4565-9c18-5c45c739a3a7")
+		(property "Reference" "SW1"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_MSM"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw, center OFF position"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a3df57-b392-4be1-a95d-5e2db750c7ce")
+		)
+		(pin "3"
+			(uuid "1c188856-1fcf-43c5-a7e4-a6e479de39e4")
+		)
+		(pin "2"
+			(uuid "57b265b2-2feb-45d2-9981-da96dbd8d79e")
+		)
+		(instances
+			(project ""
+				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
 		(at 158.75 128.27 0)
 		(unit 1)
@@ -1856,74 +2036,6 @@
 			(project ""
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 124.46 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a27f2280-3d64-468f-a4c8-94eda95e19fb")
-		(property "Reference" "SW_RED1"
-			(at 124.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 124.46 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RB141C1100:SW_RB141C1100"
-			(at 124.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "867aeb2e-18e0-43ae-8ce2-fc76d8c5e3df")
-		)
-		(pin "2"
-			(uuid "be93ba32-3991-4a53-9da0-d830d9fd30ab")
-		)
-		(instances
-			(project "Armor Panel"
-				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "SW_RED1")
 					(unit 1)
 				)
 			)
