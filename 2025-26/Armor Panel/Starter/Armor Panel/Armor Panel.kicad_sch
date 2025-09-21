@@ -894,7 +894,7 @@
 		)
 		(uuid "7aad9dad-3098-41dc-a750-17e0b69e2a2f")
 	)
-	(text "2 Switches \nSW1 - RED\nSW2 - BLUE\nBOTH ON - PURPLE"
+	(text "3 Switches \nSW1 - RED\nSW2 - BLUE\nBOTH ON - PURPLE\n\nSW3 - Power Switch"
 		(exclude_from_sim no)
 		(at 116.84 60.452 0)
 		(effects
@@ -915,6 +915,18 @@
 			(justify left bottom)
 		)
 		(uuid "e56135c6-d898-4ba3-ad08-2717cad2f267")
+	)
+	(junction
+		(at 130.81 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74931994-a918-468a-9ec5-e575e28408a3")
+	)
+	(junction
+		(at 130.81 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ea3f26-e928-4ec7-82eb-202eac6775de")
 	)
 	(junction
 		(at 130.81 114.3)
@@ -975,6 +987,16 @@
 			(type default)
 		)
 		(uuid "3407501b-d325-45ea-a28d-27decc0c6047")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34988ca8-7735-4fce-b84f-6c895f3d0b39")
 	)
 	(wire
 		(pts
@@ -1075,6 +1097,16 @@
 			(type default)
 		)
 		(uuid "99702ee4-3c94-448c-924a-afe05a88eb75")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 158.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c3a3e8-5904-4cca-8f3c-f61348e5faf3")
 	)
 	(wire
 		(pts
@@ -1697,6 +1729,73 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 158.75 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "865fd694-a843-4882-89b2-2ac10c0e1dcd")
+		(property "Reference" "H6"
+			(at 161.29 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 161.29 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "873fa42f-13c9-46b9-8186-350e6f09238a")
+		)
+		(instances
+			(project "Armor Panel"
+				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
 		(at 130.81 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1825,6 +1924,73 @@
 			(project "Armor Panel"
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
 					(reference "SW_RED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 158.75 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c19739e8-491d-41fa-b275-27c6e26145ed")
+		(property "Reference" "H5"
+			(at 161.29 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 161.29 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "4b84ee0f-c09b-40eb-bdcc-cd2590433f71")
+		)
+		(instances
+			(project "Armor Panel"
+				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
+					(reference "H5")
 					(unit 1)
 				)
 			)
