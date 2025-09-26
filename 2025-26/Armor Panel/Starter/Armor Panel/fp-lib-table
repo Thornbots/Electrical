@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Component Library")(type "KiCad")(uri "C:/Users/chews/OneDrive - Rose-Hulman Institute of Technology/Documents/GitHub/Electrical/2025-26/Armor Panel/Library/Component Library.pretty")(options "")(descr ""))
+  (lib (name "old CL")(type "KiCad")(uri "C:/Users/strattgk/OneDrive - Rose-Hulman Institute of Technology/Documents/Supa Capa/Electrical/2025-26/Armor Panel/Library/Component Library.pretty")(options "")(descr "")(disabled))
+  (lib (name "Component Library")(type "KiCad")(uri "C:/Users/strattgk/OneDrive - Rose-Hulman Institute of Technology/Documents/Supa Capa/Electrical/2025-26/Armor Panel/Library/Component Library.pretty")(options "")(descr ""))
 )
