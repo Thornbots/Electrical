@@ -1573,7 +1573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:Wire THT Pad thai"
 			(at 130.81 120.65 0)
 			(effects
 				(font
@@ -1640,7 +1640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:Wire THT Pad thai"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -1705,7 +1705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RB141C1100:SW_RB141C1100"
+		(property "Footprint" "Component Library:SPST"
 			(at 123.952 95.25 0)
 			(effects
 				(font
@@ -1776,7 +1776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:Power Boost Board"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -1862,7 +1862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:SPDT"
 			(at 130.81 66.04 0)
 			(effects
 				(font
@@ -1935,7 +1935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:Wire THT Pad thai"
 			(at 158.75 128.27 0)
 			(effects
 				(font
@@ -2002,7 +2002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:Wire THT Pad thai"
 			(at 130.81 111.76 0)
 			(effects
 				(font
@@ -2069,7 +2069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:Wire THT Pad thai"
 			(at 158.75 120.65 0)
 			(effects
 				(font
@@ -2204,7 +2204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Component Library:Wire THT Pad thai"
 			(at 130.81 128.27 0)
 			(effects
 				(font
