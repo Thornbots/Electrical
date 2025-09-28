@@ -57,7 +57,7 @@
 	)
 	(attr smd)
 	(pad "1" thru_hole circle
-		(at -6 -0.5)
+		(at -9.5 -0.5)
 		(size 5 5)
 		(drill 1.524)
 		(layers "*.Cu" "*.Mask")
@@ -73,7 +73,7 @@
 		(uuid "04ab1443-de98-4b42-a4c1-abfe9a03e389")
 	)
 	(pad "3" thru_hole circle
-		(at 6 -0.5)
+		(at 9.5 -0.5)
 		(size 5 5)
 		(drill 1.53)
 		(layers "*.Cu" "*.Mask")
