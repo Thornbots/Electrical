@@ -5,6 +5,128 @@
 	(uuid "8daf21d7-2a01-47b9-ae43-0884e5e5c5e2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
@@ -628,113 +750,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad_MP"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad_MP"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection as pad named MP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_SPDT_MSM"
 			(pin_names
 				(offset 0)
@@ -1110,22 +1125,22 @@
 		(uuid "0e89e0c2-b420-4c92-a7ea-f8c40d3e121d")
 	)
 	(junction
-		(at 130.81 123.19)
+		(at 132.08 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "74931994-a918-468a-9ec5-e575e28408a3")
+		(uuid "21901b0a-f31c-4791-8484-59ddcab55792")
 	)
 	(junction
-		(at 130.81 130.81)
+		(at 132.08 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82ea3f26-e928-4ec7-82eb-202eac6775de")
+		(uuid "851c9b64-a0bb-4ee2-9c88-017ea669ff82")
 	)
 	(junction
-		(at 130.81 114.3)
+		(at 132.08 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93cf975b-5d86-46f2-b3e0-416ef18e8ba6")
+		(uuid "af70fce9-64d2-4981-843a-6a9a79e2f053")
 	)
 	(no_connect
 		(at 97.79 80.01)
@@ -1157,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.808 114.3) (xy 130.81 114.3)
+			(xy 114.808 114.3) (xy 132.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1167,17 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.808 130.81) (xy 130.81 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3407501b-d325-45ea-a28d-27decc0c6047")
-	)
-	(wire
-		(pts
-			(xy 130.81 130.81) (xy 158.75 130.81)
+			(xy 114.808 130.81) (xy 132.08 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1267,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.808 123.19) (xy 130.81 123.19)
+			(xy 114.808 123.19) (xy 132.08 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1297,16 +1302,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 123.19) (xy 158.75 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c3a3e8-5904-4cca-8f3c-f61348e5faf3")
-	)
-	(wire
-		(pts
 			(xy 97.79 90.17) (xy 87.63 90.17)
 		)
 		(stroke
@@ -1314,6 +1309,16 @@
 			(type default)
 		)
 		(uuid "a2699e88-7f1d-4bf7-b4ed-b4e90263f52b")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaceebda-e206-4dd1-97eb-687d5862d8cf")
 	)
 	(wire
 		(pts
@@ -1327,6 +1332,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cce15a-6e7f-4f8f-be9b-6a817b0d35ad")
+	)
+	(wire
+		(pts
 			(xy 173.99 58.42) (xy 173.99 66.04)
 		)
 		(stroke
@@ -1334,6 +1349,16 @@
 			(type default)
 		)
 		(uuid "e78cadbf-a77d-4d61-a4ad-f21d6fb59b01")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 158.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bbbba4-a755-46a9-a6e0-bf57c377f2e0")
 	)
 	(wire
 		(pts
@@ -1364,16 +1389,6 @@
 			(type default)
 		)
 		(uuid "f181ed53-bf26-4792-a27e-fed92a1ddc25")
-	)
-	(wire
-		(pts
-			(xy 130.81 114.3) (xy 158.75 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc3cc4c-769c-4b0d-a255-e0256e79a6fa")
 	)
 	(label "GND"
 		(at 173.99 95.25 270)
@@ -1546,17 +1561,17 @@
 		(uuid "f9984377-1f15-4072-8506-f17fb45d593c")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 130.81 120.65 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 158.75 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "030c21c5-a549-488d-9ae6-6b697cdd639f")
-		(property "Reference" "H3"
-			(at 133.35 118.1099 0)
+		(uuid "183dd10b-2c2f-4068-a7c7-a269baeb89bb")
+		(property "Reference" "J4"
+			(at 160.02 117.4749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,8 +1579,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 133.35 120.6499 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 160.02 120.0149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1589,7 @@
 			)
 		)
 		(property "Footprint" "Component Library:Wire THT Pad"
-			(at 130.81 120.65 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 120.65 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,8 +1606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 130.81 120.65 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,30 +1615,30 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "f8ffee6b-395d-424a-b820-a634f89f43ae")
+		(pin "1"
+			(uuid "94413b8c-824a-4b6f-ace8-e0a4b3ce4c1d")
 		)
 		(instances
 			(project "Armor Panel"
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "H3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 158.75 111.76 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 132.08 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1644083d-d6cd-4a14-8c3d-921c4ffa0af8")
-		(property "Reference" "H2"
-			(at 161.29 109.2199 0)
+		(uuid "38cefe27-b5fa-4be3-9818-942d1989f20d")
+		(property "Reference" "J5"
+			(at 133.35 125.0949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,8 +1646,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 161.29 111.7599 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 133.35 127.6349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1656,7 @@
 			)
 		)
 		(property "Footprint" "Component Library:Wire THT Pad"
-			(at 158.75 111.76 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 111.76 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,8 +1673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 158.75 111.76 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,13 +1682,80 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "fd1eae3f-95a5-4d97-b6c0-db9e8f319d9f")
+		(pin "1"
+			(uuid "bd12494f-a1f7-49d5-9d57-22ea36cd4381")
 		)
 		(instances
 			(project "Armor Panel"
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "H2")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 158.75 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45906cac-ae04-446b-abd7-cb2dca8a5b48")
+		(property "Reference" "J6"
+			(at 160.02 125.0949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 160.02 127.6349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Component Library:Wire THT Pad"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65d7360d-b199-4acd-87a3-16b69dac5159")
+		)
+		(instances
+			(project "Armor Panel"
+				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1742,6 +1824,140 @@
 			(project "Armor Panel"
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
 					(reference "SW_EN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 158.75 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d2fe020-dc4a-469e-a3bd-0ac0d47b976f")
+		(property "Reference" "J2"
+			(at 160.02 108.5849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 160.02 111.1249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Component Library:Wire THT Pad"
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7004b76f-3891-49f6-8130-1afa1e667a84")
+		)
+		(instances
+			(project ""
+				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 132.08 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63a3bfb9-7ef1-439c-b36e-f3673901b392")
+		(property "Reference" "J1"
+			(at 133.35 108.5849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 133.35 111.1249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Component Library:Wire THT Pad"
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82505e8-85a3-4c96-a8e3-02509fdaeab5")
+		)
+		(instances
+			(project ""
+				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1908,17 +2124,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 158.75 128.27 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 132.08 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "865fd694-a843-4882-89b2-2ac10c0e1dcd")
-		(property "Reference" "H6"
-			(at 161.29 125.7299 0)
+		(uuid "cdb667ba-150c-4c46-a07a-234043f59551")
+		(property "Reference" "J3"
+			(at 133.35 117.4749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,8 +2142,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 161.29 128.2699 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 133.35 120.0149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +2152,7 @@
 			)
 		)
 		(property "Footprint" "Component Library:Wire THT Pad"
-			(at 158.75 128.27 0)
+			(at 132.08 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +2161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 128.27 0)
+			(at 132.08 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,8 +2169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 158.75 128.27 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 132.08 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,147 +2178,13 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "873fa42f-13c9-46b9-8186-350e6f09238a")
+		(pin "1"
+			(uuid "d97313d7-e31f-4dbe-bc64-86fe4470ae83")
 		)
 		(instances
 			(project "Armor Panel"
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 130.81 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b93d04d-5991-4566-aa91-eddba8430af8")
-		(property "Reference" "H1"
-			(at 133.35 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 133.35 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Component Library:Wire THT Pad"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "addf42b4-47d3-491c-8991-1857d076119b")
-		)
-		(instances
-			(project ""
-				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 158.75 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c19739e8-491d-41fa-b275-27c6e26145ed")
-		(property "Reference" "H5"
-			(at 161.29 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 161.29 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Component Library:Wire THT Pad"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "4b84ee0f-c09b-40eb-bdcc-cd2590433f71")
-		)
-		(instances
-			(project "Armor Panel"
-				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "H5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2171,73 +2253,6 @@
 			(project "Armor Panel"
 				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 130.81 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec9e1601-4104-4f34-9717-ce31663b2bdd")
-		(property "Reference" "H4"
-			(at 133.35 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 133.35 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Component Library:Wire THT Pad"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "5195d3ee-40fe-4fb1-b338-67333c3c2b98")
-		)
-		(instances
-			(project "Armor Panel"
-				(path "/8daf21d7-2a01-47b9-ae43-0884e5e5c5e2"
-					(reference "H4")
 					(unit 1)
 				)
 			)
