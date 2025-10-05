@@ -2154,6 +2154,136 @@
 		(layer "Edge.Cuts")
 		(uuid "8f19d387-e7b4-4b02-b9ca-93139611a50a")
 	)
+	(gr_text "B"
+		(at 109.8 75.2 0)
+		(layer "B.Cu" knockout)
+		(uuid "50761212-874c-4270-84a7-763850e81f11")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "R"
+		(at 167.75 67 0)
+		(layer "B.Cu" knockout)
+		(uuid "5651cca7-ac9f-46de-977a-8861382e530b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "E"
+		(at 152.35 73.7 0)
+		(layer "B.Cu" knockout)
+		(uuid "64ec4850-23f7-4f5c-b983-614aeb8dd665")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "R"
+		(at 138.45 54.15 0)
+		(layer "B.Cu" knockout)
+		(uuid "87d9f85c-4f50-4519-83c1-2698f3b8a353")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "B"
+		(at 167.9 74.7 0)
+		(layer "B.Cu" knockout)
+		(uuid "8ec4e0bb-9755-42b4-a380-e9669c1a52e6")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "R"
+		(at 109.95 67.3 0)
+		(layer "B.Cu" knockout)
+		(uuid "aa3a30ba-57c8-4191-9288-829716bbb6e2")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5"
+		(at 174.1 82.35 0)
+		(layer "B.Cu" knockout)
+		(uuid "b4d0be69-ccaf-4ba3-851c-157236cf4a3e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "B"
+		(at 138.6 60.9 0)
+		(layer "B.Cu" knockout)
+		(uuid "bab2bea2-33ce-4658-8db2-4fa10fa000a7")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "G"
+		(at 137.7 68.05 0)
+		(layer "B.Cu" knockout)
+		(uuid "d3ebe1ae-a2f3-48b7-ad90-ccbf1d69fdbd")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5"
+		(at 109.75 83.25 0)
+		(layer "B.Cu" knockout)
+		(uuid "e38d3971-1bde-4711-9333-0233f8351fd2")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 159 88.35)
 		(end 159 90.4275)
