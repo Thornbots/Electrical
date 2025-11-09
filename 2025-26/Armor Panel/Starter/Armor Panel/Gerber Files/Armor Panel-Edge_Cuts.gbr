@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
+%TF.CreationDate,2025-10-05T17:12:08-04:00*%
+%TF.ProjectId,Armor Panel,41726d6f-7220-4506-916e-656c2e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-10-05 17:12:08*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X100000000Y-50000000D02*
+X175000000Y-50000000D01*
+X175000000Y-125000000D01*
+X100000000Y-125000000D01*
+X100000000Y-50000000D01*
+M02*
