@@ -1732,7 +1732,6 @@
 	(wire
 		(pts
 			(xy 176.53 87.63) (xy 203.2 87.63)
-			(xy 176.53 87.63) (xy 200.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1772,6 @@
 	(wire
 		(pts
 			(xy 165.1 110.49) (xy 203.2 110.49)
-			(xy 165.1 110.49) (xy 200.66 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +1982,6 @@
 	(wire
 		(pts
 			(xy 177.8 74.93) (xy 203.2 74.93)
-			(xy 177.8 74.93) (xy 200.66 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2012,6 @@
 	(wire
 		(pts
 			(xy 175.26 96.52) (xy 203.2 96.52)
-			(xy 175.26 96.52) (xy 200.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2056,7 +2052,6 @@
 	(wire
 		(pts
 			(xy 179.07 77.47) (xy 207.01 77.47)
-			(xy 179.07 77.47) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2062,6 @@
 	(wire
 		(pts
 			(xy 172.72 101.6) (xy 203.2 101.6)
-			(xy 172.72 101.6) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2188,7 +2182,6 @@
 	(wire
 		(pts
 			(xy 154.94 85.09) (xy 203.2 85.09)
-			(xy 154.94 85.09) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2232,6 @@
 	(wire
 		(pts
 			(xy 154.94 82.55) (xy 203.2 82.55)
-			(xy 154.94 82.55) (xy 200.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +2262,6 @@
 	(wire
 		(pts
 			(xy 166.37 107.95) (xy 203.2 107.95)
-			(xy 166.37 107.95) (xy 200.66 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2282,6 @@
 	(wire
 		(pts
 			(xy 176.53 93.98) (xy 203.2 93.98)
-			(xy 176.53 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2322,6 @@
 	(wire
 		(pts
 			(xy 173.99 99.06) (xy 203.2 99.06)
-			(xy 173.99 99.06) (xy 200.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2576,6 @@
 			)
 		)
 		(property "Footprint" "Slipring:AMASS_XT30PW-F"
-		(property "Footprint" ""
 			(at 116.84 85.09 0)
 			(effects
 				(font
@@ -2655,7 +2643,6 @@
 			)
 		)
 		(property "Footprint" "Slipring:AMASS_XT30PW-F"
-		(property "Footprint" ""
 			(at 116.84 119.38 0)
 			(effects
 				(font
@@ -2701,7 +2688,6 @@
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 212.09 74.93 0)
 		(mirror x)
-		(at 208.28 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2710,10 +2696,6 @@
 		(uuid "68a10ce5-1f71-4823-b1a0-aa25952f9299")
 		(property "Reference" "J7"
 			(at 214.63 74.9301 0)
-		(fields_autoplaced yes)
-		(uuid "68a10ce5-1f71-4823-b1a0-aa25952f9299")
-		(property "Reference" "J7"
-			(at 210.82 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2705,6 @@
 		)
 		(property "Value" "JST PH 4pin"
 			(at 214.63 72.3901 0)
-			(at 210.82 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,8 +2714,6 @@
 		)
 		(property "Footprint" "Slipring:JST_B4B-PH-K"
 			(at 212.09 74.93 0)
-		(property "Footprint" ""
-			(at 208.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2723,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 212.09 74.93 0)
-			(at 208.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2732,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 212.09 74.93 0)
-			(at 208.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2771,6 @@
 		(fields_autoplaced yes)
 		(uuid "787f755c-e411-444d-85f1-cbe38f47483a")
 		(property "Reference" "J8"
-		(property "Reference" "J2"
 			(at 148.59 68.58 0)
 			(effects
 				(font
@@ -2811,7 +2787,6 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x18_P1.00mm_Vertical"
-		(property "Footprint" ""
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -2950,7 +2925,6 @@
 			(project ""
 				(path "/99d192ce-df7e-425b-b02d-c6e2bb2c6fc8"
 					(reference "J8")
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2985,7 +2959,6 @@
 			)
 		)
 		(property "Footprint" "Slipring:CONN_BM02B-GHS-TBT_JST"
-		(property "Footprint" ""
 			(at 208.28 107.95 0)
 			(effects
 				(font
@@ -3055,8 +3028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Slipring:SAMESKY_CDM845-04A-FP-F010-67"
-		(property "Footprint" ""
+		(property "Footprint" "Slipring:AMPHENOL_M8S-04PFFR-SF8001"
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -3133,7 +3105,6 @@
 			)
 		)
 		(property "Footprint" "Slipring:CONN_BM03B-GHS-TBT_JST"
-		(property "Footprint" ""
 			(at 208.28 85.09 0)
 			(effects
 				(font
@@ -3205,7 +3176,6 @@
 			)
 		)
 		(property "Footprint" "Slipring:AMASS_XT30PW-F"
-		(property "Footprint" ""
 			(at 116.84 104.14 0)
 			(effects
 				(font
