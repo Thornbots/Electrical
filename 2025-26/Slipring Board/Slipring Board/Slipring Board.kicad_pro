@@ -209,6 +209,12 @@
       },
       "via_dimensions": [],
       "zones_allow_external_fillets": false
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
     },
     "ipc2581": {
       "dist": "",
@@ -578,6 +584,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
