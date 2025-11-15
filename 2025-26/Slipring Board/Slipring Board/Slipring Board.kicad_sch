@@ -1660,6 +1660,12 @@
 		(uuid "193c10aa-cad9-4cf3-962c-6c060b387c94")
 	)
 	(junction
+		(at 204.47 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f81b57f-66c0-499b-a667-5c4b31290428")
+	)
+	(junction
 		(at 142.24 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1725,6 +1731,7 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 87.63) (xy 203.2 87.63)
 			(xy 176.53 87.63) (xy 200.66 87.63)
 		)
 		(stroke
@@ -1732,6 +1739,16 @@
 			(type default)
 		)
 		(uuid "04d1087c-59e1-4a64-848d-675fdf47a51e")
+	)
+	(wire
+		(pts
+			(xy 204.47 69.85) (xy 207.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0550351a-b7f1-432c-8ad1-bbdb7105eb4d")
 	)
 	(wire
 		(pts
@@ -1755,6 +1772,7 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 110.49) (xy 203.2 110.49)
 			(xy 165.1 110.49) (xy 200.66 110.49)
 		)
 		(stroke
@@ -1795,6 +1813,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 74.93) (xy 203.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c619f1c-4585-41f1-aa5c-a22cc45d9a5b")
+	)
+	(wire
+		(pts
 			(xy 142.24 95.25) (xy 142.24 97.79)
 		)
 		(stroke
@@ -1802,6 +1830,16 @@
 			(type default)
 		)
 		(uuid "1df0701e-7992-4b09-95b8-7ecc02ffe41c")
+	)
+	(wire
+		(pts
+			(xy 204.47 74.93) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ece9a3-daed-4a0c-bac8-86e6cba187e8")
 	)
 	(wire
 		(pts
@@ -1885,6 +1923,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 69.85) (xy 204.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525efce1-06fd-495f-94fd-fb9cbe89f0ca")
+	)
+	(wire
+		(pts
 			(xy 142.24 77.47) (xy 142.24 80.01)
 		)
 		(stroke
@@ -1935,6 +1983,7 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 74.93) (xy 203.2 74.93)
 			(xy 177.8 74.93) (xy 200.66 74.93)
 		)
 		(stroke
@@ -1942,6 +1991,16 @@
 			(type default)
 		)
 		(uuid "67abc9fb-e5c5-41b9-9445-3583964b63e3")
+	)
+	(wire
+		(pts
+			(xy 200.66 69.85) (xy 204.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b0b7d5-ce37-436b-aad7-7b4a216671d6")
 	)
 	(wire
 		(pts
@@ -1955,6 +2014,7 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 96.52) (xy 203.2 96.52)
 			(xy 175.26 96.52) (xy 200.66 96.52)
 		)
 		(stroke
@@ -1995,6 +2055,7 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 77.47) (xy 207.01 77.47)
 			(xy 179.07 77.47) (xy 200.66 77.47)
 		)
 		(stroke
@@ -2005,6 +2066,7 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 101.6) (xy 203.2 101.6)
 			(xy 172.72 101.6) (xy 200.66 101.6)
 		)
 		(stroke
@@ -2125,6 +2187,7 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 85.09) (xy 203.2 85.09)
 			(xy 154.94 85.09) (xy 200.66 85.09)
 		)
 		(stroke
@@ -2175,6 +2238,7 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 82.55) (xy 203.2 82.55)
 			(xy 154.94 82.55) (xy 200.66 82.55)
 		)
 		(stroke
@@ -2182,6 +2246,16 @@
 			(type default)
 		)
 		(uuid "d85836b3-245e-4e05-8e4c-502236683be2")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 200.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d0383e-31b6-4059-980d-1b2ea1f5c388")
 	)
 	(wire
 		(pts
@@ -2195,6 +2269,7 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 107.95) (xy 203.2 107.95)
 			(xy 166.37 107.95) (xy 200.66 107.95)
 		)
 		(stroke
@@ -2215,6 +2290,7 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 93.98) (xy 203.2 93.98)
 			(xy 176.53 93.98) (xy 200.66 93.98)
 		)
 		(stroke
@@ -2255,6 +2331,7 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 99.06) (xy 203.2 99.06)
 			(xy 173.99 99.06) (xy 200.66 99.06)
 		)
 		(stroke
@@ -2282,6 +2359,16 @@
 			(type default)
 		)
 		(uuid "ec3b07bf-d9f6-42d6-adfc-371ae4e637e4")
+	)
+	(wire
+		(pts
+			(xy 203.2 72.39) (xy 207.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2f0705-44d3-4c98-91af-d5b7b4869010")
 	)
 	(wire
 		(pts
@@ -2499,6 +2586,7 @@
 				)
 			)
 		)
+		(property "Footprint" "Slipring:AMASS_XT30PW-F"
 		(property "Footprint" ""
 			(at 116.84 85.09 0)
 			(effects
@@ -2566,6 +2654,7 @@
 				)
 			)
 		)
+		(property "Footprint" "Slipring:AMASS_XT30PW-F"
 		(property "Footprint" ""
 			(at 116.84 119.38 0)
 			(effects
@@ -2610,12 +2699,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
+		(at 212.09 74.93 0)
+		(mirror x)
 		(at 208.28 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "68a10ce5-1f71-4823-b1a0-aa25952f9299")
+		(property "Reference" "J7"
+			(at 214.63 74.9301 0)
 		(fields_autoplaced yes)
 		(uuid "68a10ce5-1f71-4823-b1a0-aa25952f9299")
 		(property "Reference" "J7"
@@ -2628,6 +2722,7 @@
 			)
 		)
 		(property "Value" "JST PH 4pin"
+			(at 214.63 72.3901 0)
 			(at 210.82 76.1999 0)
 			(effects
 				(font
@@ -2636,6 +2731,8 @@
 				(justify left)
 			)
 		)
+		(property "Footprint" "Slipring:JST_B4B-PH-K"
+			(at 212.09 74.93 0)
 		(property "Footprint" ""
 			(at 208.28 73.66 0)
 			(effects
@@ -2646,6 +2743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 212.09 74.93 0)
 			(at 208.28 73.66 0)
 			(effects
 				(font
@@ -2655,6 +2753,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 212.09 74.93 0)
 			(at 208.28 73.66 0)
 			(effects
 				(font
@@ -2694,6 +2793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787f755c-e411-444d-85f1-cbe38f47483a")
+		(property "Reference" "J8"
 		(property "Reference" "J2"
 			(at 148.59 68.58 0)
 			(effects
@@ -2710,6 +2810,7 @@
 				)
 			)
 		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x18_P1.00mm_Vertical"
 		(property "Footprint" ""
 			(at 147.32 95.25 0)
 			(effects
@@ -2848,6 +2949,7 @@
 		(instances
 			(project ""
 				(path "/99d192ce-df7e-425b-b02d-c6e2bb2c6fc8"
+					(reference "J8")
 					(reference "J2")
 					(unit 1)
 				)
@@ -2882,6 +2984,7 @@
 				(justify left)
 			)
 		)
+		(property "Footprint" "Slipring:CONN_BM02B-GHS-TBT_JST"
 		(property "Footprint" ""
 			(at 208.28 107.95 0)
 			(effects
@@ -2952,6 +3055,7 @@
 				(justify left)
 			)
 		)
+		(property "Footprint" "Slipring:SAMESKY_CDM845-04A-FP-F010-67"
 		(property "Footprint" ""
 			(at 208.28 96.52 0)
 			(effects
@@ -3028,6 +3132,7 @@
 				(justify left)
 			)
 		)
+		(property "Footprint" "Slipring:CONN_BM03B-GHS-TBT_JST"
 		(property "Footprint" ""
 			(at 208.28 85.09 0)
 			(effects
@@ -3099,6 +3204,7 @@
 				)
 			)
 		)
+		(property "Footprint" "Slipring:AMASS_XT30PW-F"
 		(property "Footprint" ""
 			(at 116.84 104.14 0)
 			(effects
