@@ -584,7 +584,10 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
+<<<<<<< Updated upstream
       "name": "Default Editing",
+=======
+>>>>>>> Stashed changes
       "sort_asc": true,
       "sort_field": "Reference"
     },
