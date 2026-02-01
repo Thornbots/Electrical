@@ -483,6 +483,9 @@
       "Net-(R3-Pad1)": [
         "5V"
       ],
+      "Net-(U3-PadVBUS)": [
+        "5V"
+      ],
       "Net-(U4-AVDD)": [
         "5V"
       ],
