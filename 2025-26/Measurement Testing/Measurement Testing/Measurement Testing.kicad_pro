@@ -486,6 +486,9 @@
       "Net-(U3-PadVBUS)": [
         "5V"
       ],
+      "Net-(U3-VBUS)": [
+        "5V"
+      ],
       "Net-(U4-AVDD)": [
         "5V"
       ],
@@ -494,6 +497,9 @@
       ],
       "unconnected-(U2-Pad5)": [
         "5V"
+      ],
+      "unconnected-(U3-3V3-Pad36)": [
+        "3V3"
       ],
       "unconnected-(U3-Pad3V3)": [
         "3V3"

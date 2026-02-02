@@ -930,7 +930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614eb164-2da5-49ad-90f2-470d7dc26ca0")
-		(property "Reference" "Cbst"
+		(property "Reference" "Cbst1"
 			(at 180.34 59.69 90)
 			(effects
 				(font
@@ -946,7 +946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.15 66.3448 0)
 			(effects
 				(font
@@ -973,6 +973,54 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "34e4e5d8-4022-457a-ada9-5a633a4b5510")
 		)
@@ -982,7 +1030,7 @@
 		(instances
 			(project ""
 				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
-					(reference "Cbst")
+					(reference "Cbst1")
 					(unit 1)
 				)
 			)
@@ -998,7 +1046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78947561-5d20-4644-9379-ae65c84323d4")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 201.93 92.7099 0)
 			(effects
 				(font
@@ -1043,6 +1091,54 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bac6a474-bf31-4ad4-82db-5cedbc91acd3")
 		)
@@ -1052,7 +1148,7 @@
 		(instances
 			(project ""
 				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -1068,7 +1164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82f616d1-7097-42a4-8d96-a761dc397859")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 123.19 83.8199 0)
 			(effects
 				(font
@@ -1113,6 +1209,54 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fdb9dafc-97ae-475f-86c6-d8e4421e5728")
 		)
@@ -1122,7 +1266,7 @@
 		(instances
 			(project ""
 				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
-					(reference "Cin")
+					(reference "Cin1")
 					(unit 1)
 				)
 			)
@@ -1154,7 +1298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS54308DDCR:SOT95P280X110-6N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 153.67 80.01 0)
 			(effects
 				(font
@@ -1180,6 +1324,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -1219,7 +1411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a842b35c-3324-4df1-9859-a18fba75b14e")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout1"
 			(at 217.17 85.0899 0)
 			(effects
 				(font
@@ -1264,6 +1456,54 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "394fbc8d-01dc-4f29-b3fe-e2f49e65e775")
 		)
@@ -1273,7 +1513,7 @@
 		(instances
 			(project ""
 				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
-					(reference "Cout")
+					(reference "Cout1")
 					(unit 1)
 				)
 			)
@@ -1289,7 +1529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2d040d0-97cc-48a7-89c1-91f274bd2647")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt1"
 			(at 201.93 80.0099 0)
 			(effects
 				(font
@@ -1334,6 +1574,54 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c226d09e-9f37-4d2b-942b-3e94029e0ac8")
 		)
@@ -1343,7 +1631,7 @@
 		(instances
 			(project ""
 				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -1400,6 +1688,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
