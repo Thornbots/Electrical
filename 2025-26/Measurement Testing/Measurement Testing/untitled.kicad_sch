@@ -887,7 +887,7 @@
 		)
 		(uuid "b4d359de-b2b2-4850-9572-6e23755d3b33")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "D_GND"
 		(shape input)
 		(at 207.01 101.6 270)
 		(effects
@@ -898,7 +898,7 @@
 		)
 		(uuid "bdc4d3bd-9811-4ff2-8a3b-39c4a9af2769")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "P_GND"
 		(shape input)
 		(at 119.38 92.71 270)
 		(effects
@@ -909,7 +909,7 @@
 		)
 		(uuid "e544fa67-5f22-437d-98c5-be00fc7b479b")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "D_GND"
 		(shape input)
 		(at 130.81 92.71 270)
 		(effects
