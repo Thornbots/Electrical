@@ -606,12 +606,6 @@
 		)
 	)
 	(junction
-		(at 213.36 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02813505-3f20-4459-8231-df91b2498b0c")
-	)
-	(junction
 		(at 199.39 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -797,16 +791,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 77.47) (xy 222.25 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ae82a9-2d34-4862-bda7-548d454e3438")
-	)
-	(wire
-		(pts
 			(xy 171.45 82.55) (xy 191.77 82.55)
 		)
 		(stroke
@@ -865,6 +849,28 @@
 		)
 		(uuid "e4216d5b-1a33-4123-aebe-598882e63fa0")
 	)
+	(global_label "5V"
+		(shape input)
+		(at 213.36 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abeca0d0-aa42-4e5e-a7a9-498d76058c80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 72.1867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "Vin"
 		(shape input)
 		(at 105.41 77.47 180)
@@ -875,17 +881,6 @@
 			(justify right)
 		)
 		(uuid "96a52c73-bb65-45cf-b763-cc866bd5cb63")
-	)
-	(hierarchical_label "Iout"
-		(shape input)
-		(at 222.25 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4d359de-b2b2-4850-9572-6e23755d3b33")
 	)
 	(hierarchical_label "D_GND"
 		(shape input)
