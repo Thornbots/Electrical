@@ -849,6 +849,28 @@
 		)
 		(uuid "e4216d5b-1a33-4123-aebe-598882e63fa0")
 	)
+	(global_label "VIN"
+		(shape input)
+		(at 109.22 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1859677f-4785-4fbc-8605-c714ccceaa15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 71.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 213.36 77.47 90)
@@ -1017,14 +1039,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "34e4e5d8-4022-457a-ada9-5a633a4b5510")
+			(uuid "17beab64-2b23-4e83-a527-1c25a459a127")
 		)
 		(pin "1"
-			(uuid "1f5b2ff4-db70-45b0-addd-c5c167f4d067")
+			(uuid "c5c81bfc-871d-4976-ac4c-8c254062a385")
 		)
 		(instances
-			(project ""
-				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
 					(reference "Cbst1")
 					(unit 1)
 				)
@@ -1135,14 +1157,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "bac6a474-bf31-4ad4-82db-5cedbc91acd3")
+			(uuid "0ac3d491-120f-4727-961a-4c6a191217a7")
 		)
 		(pin "1"
-			(uuid "1e930519-ce3f-4867-ae44-50ea2c6735fd")
+			(uuid "8fa0ea63-d1fc-4499-8027-df5fe2501057")
 		)
 		(instances
-			(project ""
-				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
 					(reference "Rfbb1")
 					(unit 1)
 				)
@@ -1253,14 +1275,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "fdb9dafc-97ae-475f-86c6-d8e4421e5728")
+			(uuid "6b37cf73-76e2-4598-a549-d219bf06fe5d")
 		)
 		(pin "1"
-			(uuid "e7150a38-e802-414f-9199-82b4255c2beb")
+			(uuid "ecbcb57d-b55c-4597-b50b-95422ccddaee")
 		)
 		(instances
-			(project ""
-				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
 					(reference "Cin1")
 					(unit 1)
 				)
@@ -1370,26 +1392,26 @@
 			)
 		)
 		(pin "5"
-			(uuid "2720411c-f312-4b6e-ba16-3033cce07414")
+			(uuid "607a1909-1d11-4474-b7d1-609c69825e4e")
 		)
 		(pin "2"
-			(uuid "48718498-50f6-4ec9-b9c0-925fe92e2162")
+			(uuid "a18e4c21-d535-44d1-a5bb-0973add4618a")
 		)
 		(pin "1"
-			(uuid "637a9e31-291f-4aff-96f2-dab2323dedd8")
+			(uuid "6121814b-2a4a-4a36-9eee-b1a2005742e6")
 		)
 		(pin "4"
-			(uuid "94c56e02-3bee-40d9-ac52-19a149694702")
+			(uuid "636aaa76-311f-4008-a10b-0ce6e99b1868")
 		)
 		(pin "6"
-			(uuid "3c8bebd8-2d3f-4101-b97c-6c12ec472594")
+			(uuid "abc5ae5a-8ff9-4a97-966f-896185874aba")
 		)
 		(pin "3"
-			(uuid "dafa6ffb-3cd4-466e-8d2f-e8f7484db5cd")
+			(uuid "c7279736-6bcd-425c-b4f6-2d79c0d79331")
 		)
 		(instances
-			(project ""
-				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1500,14 +1522,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "394fbc8d-01dc-4f29-b3fe-e2f49e65e775")
+			(uuid "a3e5ea00-1b71-4a01-8389-d7f8797f0754")
 		)
 		(pin "1"
-			(uuid "0a74aefa-4977-4c7d-9e93-0adb14a4e76e")
+			(uuid "06ca9798-d9fe-4666-9de1-cc6ab7fc51a1")
 		)
 		(instances
-			(project ""
-				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
 					(reference "Cout1")
 					(unit 1)
 				)
@@ -1618,14 +1640,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "c226d09e-9f37-4d2b-942b-3e94029e0ac8")
+			(uuid "aaffeef7-5ebe-488b-95ba-9abc6edc2357")
 		)
 		(pin "1"
-			(uuid "20f6c09d-d86b-408a-b569-e4991b85c1c7")
+			(uuid "004e5d18-4525-4a34-87e7-593e9e8ca84c")
 		)
 		(instances
-			(project ""
-				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
 					(reference "Rfbt1")
 					(unit 1)
 				)
@@ -1734,14 +1756,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "617fd427-56b8-4264-a0a8-b466e85acd23")
+			(uuid "101ffc80-e7b7-4d1d-99d6-936ca1703875")
 		)
 		(pin "2"
-			(uuid "b23a4e21-6b0e-45c9-b919-af9ab9b34add")
+			(uuid "e528a85b-0095-4a47-8449-73228883f812")
 		)
 		(instances
-			(project ""
-				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/ce38bacc-7151-45be-ad30-eefd7fd4212a"
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
 					(reference "L1")
 					(unit 1)
 				)
