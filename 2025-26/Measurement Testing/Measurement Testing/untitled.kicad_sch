@@ -1299,7 +1299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "939af761-5d1a-4231-9be0-c91db8f5d45e")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -1412,7 +1412,7 @@
 		(instances
 			(project "Measurement Testing"
 				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f/f8204527-62a7-4851-b7aa-a81e6fe1d26d"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
