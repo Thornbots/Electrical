@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4"
+      "Version": "9.0.7"
     },
-    "CreationDate": "2025-12-04T18:40:55-05:00"
+    "CreationDate": "2026-03-15T14:46:28-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Slipring Board",
-      "GUID": "536c6970-7269-46e6-9720-426f6172642e",
+      "Name": "Measurement Testing",
+      "GUID": "4d656173-7572-4656-9d65-6e7420546573",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 75.05,
-      "Y": 50.05
+      "X": 52.6,
+      "Y": 45.1
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,52 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 1.0
+      "MinLineWidth": 0.3,
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Slipring Board-F_Cu.gbr",
+      "Path": "Measurement Testing-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slipring Board-B_Cu.gbr",
+      "Path": "Measurement Testing-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slipring Board-F_Paste.gbr",
+      "Path": "Measurement Testing-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slipring Board-B_Paste.gbr",
+      "Path": "Measurement Testing-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slipring Board-F_Silkscreen.gbr",
+      "Path": "Measurement Testing-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slipring Board-B_Silkscreen.gbr",
+      "Path": "Measurement Testing-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Slipring Board-F_Mask.gbr",
+      "Path": "Measurement Testing-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Slipring Board-B_Mask.gbr",
+      "Path": "Measurement Testing-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Slipring Board-Edge_Cuts.gbr",
+      "Path": "Measurement Testing-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
