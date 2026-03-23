@@ -3351,6 +3351,12 @@
 		(uuid "c7930fe6-00a4-41b4-af9a-42747d98297f")
 	)
 	(junction
+		(at 45.72 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c8c225-348d-4292-9d56-29dfa49b8be3")
+	)
+	(junction
 		(at 139.7 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3770,6 +3776,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 179.07) (xy 52.07 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad79ca7-356d-4bfd-9b84-da482b144715")
+	)
+	(wire
+		(pts
 			(xy 156.21 63.5) (xy 157.48 63.5)
 		)
 		(stroke
@@ -4030,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 171.45) (xy 48.26 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1dcef1-f89a-44ba-9c20-d332cbd20793")
+	)
+	(wire
+		(pts
 			(xy 34.29 87.63) (xy 27.94 87.63)
 		)
 		(stroke
@@ -4240,6 +4266,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 179.07) (xy 60.96 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88923268-cff2-47be-b7b1-e93113538bb0")
+	)
+	(wire
+		(pts
 			(xy 78.74 130.81) (xy 73.66 130.81)
 		)
 		(stroke
@@ -4260,6 +4296,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 171.45) (xy 55.88 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d72906f-41fd-4098-8658-89409971fab5")
+	)
+	(wire
+		(pts
 			(xy 99.06 118.11) (xy 20.32 118.11)
 		)
 		(stroke
@@ -4267,16 +4313,6 @@
 			(type default)
 		)
 		(uuid "8d773944-ddee-4e48-b615-3d7d4ef8b4bd")
-	)
-	(wire
-		(pts
-			(xy 48.26 171.45) (xy 48.26 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc5d46d-8649-417f-a7c8-238debd5f746")
 	)
 	(wire
 		(pts
@@ -4420,16 +4456,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 171.45) (xy 55.88 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d471f6-42e2-4205-9ce1-a68e0a72454a")
-	)
-	(wire
-		(pts
 			(xy 187.96 55.88) (xy 187.96 59.69)
 		)
 		(stroke
@@ -4477,16 +4503,6 @@
 			(type default)
 		)
 		(uuid "bd14c61f-143f-49df-b697-e508a6d3ccc0")
-	)
-	(wire
-		(pts
-			(xy 52.07 180.34) (xy 52.07 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6ce1d3-eb87-42ec-862b-7ea2566b9bfa")
 	)
 	(wire
 		(pts
@@ -5058,28 +5074,6 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 52.07 182.88 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd2696b7-cbfc-4ac6-8e9f-b0b03386d840")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 189.3728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
 		(at 83.82 129.54 90)
 		(fields_autoplaced yes)
 		(effects
@@ -5091,6 +5085,28 @@
 		(uuid "da516e78-d349-4032-9e07-6afa629a0114")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.82 123.0472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 60.96 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db602545-062d-4f5b-bdd6-83017f43d78e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.4528 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-38_6.1x12.5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm"
 			(at 119.38 118.11 0)
 			(effects
 				(font
@@ -5660,7 +5676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-38_6.1x12.5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm"
 			(at 63.5 151.13 0)
 			(effects
 				(font
@@ -6334,7 +6350,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 52.07 176.53 270)
+		(at 55.88 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6343,7 +6359,7 @@
 		(fields_autoplaced yes)
 		(uuid "41cef814-1b04-4624-ad53-18aac2e14cb1")
 		(property "Reference" "RV1"
-			(at 52.07 170.18 90)
+			(at 55.88 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6368,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer"
-			(at 52.07 172.72 90)
+			(at 55.88 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6376,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
-			(at 52.07 176.53 0)
+			(at 55.88 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 176.53 0)
+			(at 55.88 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6394,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 52.07 176.53 0)
+			(at 55.88 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,6 +8039,73 @@
 			(project ""
 				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a09f5ec1-357b-4a83-96ab-7879b94668ed")
+		(property "Reference" "#PWR020"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.356 177.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69d8c1e-035b-4d01-aa53-8d8ee5337aa5")
+		)
+		(instances
+			(project "Measurement Testing"
+				(path "/f9b21408-59e0-4182-8f6c-2457a0c10f8f"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
