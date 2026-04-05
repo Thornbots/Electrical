@@ -107,24 +107,18 @@ static void spi_write_be32_24(ads8688_t *dev, uint32_t word_be) {
  */
 static void prog_write(ads8688_t *dev, uint32_t addr, uint32_t val) {
     uint32_t tmp = ADS8688_PROG_REG(addr) | ADS8688_PROG_WR_BIT | val;
-    tmp <<= ADS8688_PROG_DONT_CARE_BITS;   /* push don't-care bits to LSB */
-    spi_write_be32_24(dev, cpu_to_be32(tmp));
+    tmp <<= ADS8688_PROG_DONT_CARE_BITS;
+    // removed cpu_to_be32
+    spi_write_be32_24(dev, tmp);
 }
 
 /* ── Public API implementation ───────────────────────────────────────── */
 
 void ads8688_reset(ads8688_t *dev) {
-    /*
-     * Mirrors: ads8688_reset() in the Linux driver.
-     *
-     * Frame layout (32-bit, big-endian):
-     *   [31:24] CMD_REG(RST) = 0x85
-     *   [23:16] 0x00
-     *   [15:0]  Don't-care (ADS8688_CMD_DONT_CARE_BITS = 16)
-     */
     uint32_t tmp = ADS8688_CMD_REG(ADS8688_CMD_REG_RST);
     tmp <<= ADS8688_CMD_DONT_CARE_BITS;
-    spi_write_be32(dev, cpu_to_be32(tmp));
+    // removed cpu_to_be32
+    spi_write_be32(dev, tmp);
 }
 
 int32_t ads8688_read_raw(ads8688_t *dev, uint8_t channel) {
@@ -136,6 +130,7 @@ int32_t ads8688_read_raw(ads8688_t *dev, uint8_t channel) {
      *   TX1: CMD_REG_MAN_CH(channel) << 16   — select channel for next conv.
      *   TX2: CMD_REG_NOOP             << 16   — clock out result while sending
      *   RX2: 32-bit big-endian result; lower 16 bits are the ADC code.
+     * %%%%%%%%% NOT BIG ENDIAN %%%%%%%%%%%%%
      */
     if (channel >= dev->num_channels) return -1;
 
@@ -145,7 +140,6 @@ int32_t ads8688_read_raw(ads8688_t *dev, uint8_t channel) {
     /* ── First transfer: manual channel select ── */
     tmp = ADS8688_CMD_REG(ADS8688_CMD_REG_MAN_CH(channel));
     tmp <<= ADS8688_CMD_DONT_CARE_BITS;
-    tmp = cpu_to_be32(tmp);
     tx[0] = (tmp >> 24) & 0xFF;
     tx[1] = (tmp >> 16) & 0xFF;
     tx[2] = (tmp >>  8) & 0xFF;
@@ -158,7 +152,6 @@ int32_t ads8688_read_raw(ads8688_t *dev, uint8_t channel) {
     /* ── Second transfer: NOOP → receive conversion result ── */
     tmp = ADS8688_CMD_REG(ADS8688_CMD_REG_NOOP);
     tmp <<= ADS8688_CMD_DONT_CARE_BITS;
-    tmp = cpu_to_be32(tmp);
     tx[0] = (tmp >> 24) & 0xFF;
     tx[1] = (tmp >> 16) & 0xFF;
     tx[2] = (tmp >>  8) & 0xFF;
@@ -168,13 +161,12 @@ int32_t ads8688_read_raw(ads8688_t *dev, uint8_t channel) {
     spi_write_read_blocking(dev->spi, tx, rx, 4);
     cs_deselect(dev);
 
-    /* Reassemble big-endian RX word and mask lower 16 bits */
-    uint32_t result_be = ((uint32_t)rx[0] << 24) |
-                         ((uint32_t)rx[1] << 16) |
-                         ((uint32_t)rx[2] <<  8) |
-                         ((uint32_t)rx[3]);
+    uint32_t result = ((uint32_t)rx[0] << 24) |
+                      ((uint32_t)rx[1] << 16) |
+                      ((uint32_t)rx[2] <<  8) |
+                      ((uint32_t)rx[3]);
 
-    return (int32_t)(be32_to_cpu(result_be) & 0xFFFF);
+    return (int32_t)(result & 0xFFFF);
 }
 
 float ads8688_read_voltage_mv(ads8688_t *dev, uint8_t channel) {

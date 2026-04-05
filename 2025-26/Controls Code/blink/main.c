@@ -11,11 +11,11 @@
  *   GP19 → MOSI   (SPI0 TX)
  *
  * Our Pinout:
- *  GP11 → MOSI    (SPI1 TX)
- *  GP12 → MISO    (SPI1 RX)
- *  GP13 → CSn     (SPI1 CS)
+ *  GP11 → pin 15 → MOSI    (SPI1 TX) 
+ *  GP12 → pin 16 → MISO    (SPI1 RX)
+ *  GP13 → pin 17 → CSn     (SPI1 CS)
  *  <GND pin in between>
- *  GP14 → SCK     (SPI1 SCK)
+ *  GP14 → pin 19 SCK     (SPI1 SCK)
  * 
  * CMakeLists.txt dependencies:
  *   target_link_libraries(your_target pico_stdlib hardware_spi)
@@ -83,11 +83,16 @@ int main(void) {
         for (uint8_t ch = 0; ch < NUM_CHANNELS; ch++) {
             int32_t raw = ads8688_read_raw(&adc, ch);
             float   mv  = ads8688_read_voltage_mv(&adc, ch);
-            printf("CH%d: raw=%5d  voltage=%+9.3f mV\n", ch, raw, mv);
+            
+            printf("CH%d: raw=%5d  bits=", ch, raw);
+            for (int i = 15; i >= 0; i--) {
+                printf("%d", (raw >> i) & 1);
+            }
+            printf("  voltage=%+9.3f mV\n", mv);
         }
         printf("──────────────────────────────────\n");
         gpio_put(PICO_DEFAULT_LED_PIN, 0);
-        sleep_ms(1000);
+        sleep_ms(500);
     }
 
     return 0;
