@@ -1945,16 +1945,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 138.43) (xy 54.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0756ad59-a952-4ac2-9da8-02ea281447b2")
-	)
-	(wire
-		(pts
 			(xy 195.58 143.51) (xy 209.55 143.51)
 		)
 		(stroke
@@ -2052,16 +2042,6 @@
 			(type default)
 		)
 		(uuid "4b5364eb-1005-4e0d-8aba-bd9ba8e439b2")
-	)
-	(wire
-		(pts
-			(xy 41.91 140.97) (xy 54.61 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f30aad-a55a-41e6-acb6-827cee5d4aa1")
 	)
 	(wire
 		(pts
@@ -2235,28 +2215,6 @@
 			)
 		)
 	)
-	(global_label "SPI0_MOSI"
-		(shape input)
-		(at 100.33 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08c9edf9-3ea8-4c30-901b-8a460227adae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.1728 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 109.22 44.45 180)
@@ -2270,28 +2228,6 @@
 		(uuid "0c12b543-13b4-42b2-ac86-898fb7597948")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.9367 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_MOSI"
-		(shape input)
-		(at 54.61 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e546ac3-91ef-4133-b07e-a5f9274f2a4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,6 +2325,50 @@
 			)
 		)
 	)
+	(global_label "SPI1_CS"
+		(shape input)
+		(at 58.42 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fe4b49d-4186-4dc1-88c1-35a424bb22a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.6939 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 86.36 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22a30248-fe5d-402b-bbcb-4ee0508dbf3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.4857 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_DT"
 		(shape input)
 		(at 181.61 71.12 180)
@@ -2433,28 +2413,6 @@
 			)
 		)
 	)
-	(global_label "SPI1_CS"
-		(shape input)
-		(at 184.15 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3119de3b-d33b-4407-84e1-e6675cda248c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8761 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PSU_Vin"
 		(shape input)
 		(at 209.55 133.35 0)
@@ -2468,28 +2426,6 @@
 		(uuid "34eeb68f-d8c9-4c12-8265-09b0fd905343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.1552 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI0_CLK"
-		(shape input)
-		(at 100.33 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b4dfb01-79d6-4cce-a008-41362f700cf9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.1447 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,6 +2457,28 @@
 			)
 		)
 	)
+	(global_label "PWM_L"
+		(shape input)
+		(at 54.61 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fc61f40-c242-4809-bfc9-d6e3ec081e11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.4563 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_DT"
 		(shape input)
 		(at 97.79 38.1 90)
@@ -2543,7 +2501,29 @@
 			)
 		)
 	)
-	(global_label "PWM_L"
+	(global_label "SPI0_CS"
+		(shape input)
+		(at 184.15 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40b385e6-4ea7-4ff1-b89f-24c546b632d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8761 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_H"
 		(shape input)
 		(at 54.61 153.67 180)
 		(fields_autoplaced yes)
@@ -2553,9 +2533,9 @@
 			)
 			(justify right)
 		)
-		(uuid "46d93eb5-74ec-4ba9-9abd-7e3b9fa9ffb7")
+		(uuid "4ad7813e-f40b-4b43-8795-92d73b734bba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.4563 153.67 0)
+			(at 45.1539 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,28 +2567,6 @@
 			)
 		)
 	)
-	(global_label "SPI1_CS"
-		(shape input)
-		(at 54.61 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5536f7c6-6ca4-4de2-9821-00f10e0df6cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.8839 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "V_DT"
 		(shape input)
 		(at 262.89 115.57 180)
@@ -2622,6 +2580,28 @@
 		(uuid "559cab49-4a8c-4cb1-b9ef-dd6e28e2f4b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 255.611 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI1_CS"
+		(shape input)
+		(at 54.61 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "578f9246-fa6f-456b-87f4-ddb36ba85337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.8839 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,9 +2655,9 @@
 			)
 		)
 	)
-	(global_label "SPI1_CLK"
+	(global_label "SPI0_CS"
 		(shape input)
-		(at 184.15 44.45 0)
+		(at 100.33 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2685,36 +2665,14 @@
 			)
 			(justify left)
 		)
-		(uuid "6265a139-0870-4588-89a1-3da491a23864")
+		(uuid "6439f578-c059-47a5-b86d-3a5e557869a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.9647 44.45 0)
+			(at 111.0561 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI0_MOSI"
-		(shape input)
-		(at 58.42 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "686a2cad-3d80-4983-9e9c-d4ead5fec8e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.5772 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2741,24 +2699,46 @@
 			)
 		)
 	)
-	(global_label "SPI1_MOSI"
+	(global_label "SPI1_CLK"
 		(shape input)
-		(at 184.15 40.64 0)
+		(at 54.61 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "6de7559c-a20a-4d02-8f8d-2cf56515c049")
+		(uuid "697c9222-2f03-4ec5-bf14-74cc7e0c0abf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9928 40.64 0)
+			(at 42.7953 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI1_MOSI"
+		(shape input)
+		(at 54.61 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ece959d-fa3e-40c5-8042-a5172c8ea65b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7672 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2807,6 +2787,28 @@
 			)
 		)
 	)
+	(global_label "SPI0_CLK"
+		(shape input)
+		(at 100.33 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79546ca6-86a7-49b6-98bd-384373b85520")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1447 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PSU_GND"
 		(shape input)
 		(at 209.55 143.51 0)
@@ -2851,6 +2853,50 @@
 			)
 		)
 	)
+	(global_label "SPI0_MOSI"
+		(shape input)
+		(at 184.15 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a325817-c2ce-45a5-b267-197b0a695df7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.9928 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI1_CLK"
+		(shape input)
+		(at 58.42 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cc8891f-cf88-419d-978d-d976900cd09b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.6053 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DGND"
 		(shape input)
 		(at 152.4 110.49 0)
@@ -2864,28 +2910,6 @@
 		(uuid "8d38b026-2c36-45b6-b3aa-e67896d9f281")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.5257 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI0_CS"
-		(shape input)
-		(at 100.33 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92aea66f-3984-4dfd-ba10-fdf7e570a3e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0561 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,6 +2941,28 @@
 			)
 		)
 	)
+	(global_label "SPI0_MOSI"
+		(shape input)
+		(at 100.33 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f938cfe-55e1-4bf4-937c-2f99af9fa8c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.1728 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_DT"
 		(shape input)
 		(at 262.89 107.95 180)
@@ -2941,7 +2987,29 @@
 	)
 	(global_label "DGND"
 		(shape input)
-		(at 86.36 52.07 0)
+		(at 58.42 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0449099-0b07-4cb1-a8ad-cf5795daabe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.2943 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI0_MISO"
+		(shape input)
+		(at 100.33 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2949,9 +3017,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a0449099-0b07-4cb1-a8ad-cf5795daabe8")
+		(uuid "a165386a-d893-4273-aab8-5671de119332")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4857 52.07 0)
+			(at 113.1728 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,9 +3029,9 @@
 			)
 		)
 	)
-	(global_label "SPI0_MISO"
+	(global_label "SPI1_MOSI"
 		(shape input)
-		(at 58.42 36.83 180)
+		(at 58.42 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2971,9 +3039,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a5b59626-47d3-42f2-b4eb-e091257be34e")
+		(uuid "a1c30c91-6372-4895-b06b-d6857d8287fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.5772 36.83 0)
+			(at 45.5772 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3149,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bb18f867-74c3-4b95-b5b4-627d0c77dbe0")
+		(uuid "bcad8a78-9282-41d2-ba0e-9b1c3fbd774e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.7672 148.59 0)
 			(effects
@@ -3111,6 +3179,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DGND"
+		(shape input)
+		(at 77.47 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "beb5d8e3-9813-41ab-a053-bb840b45cecb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 177.0357 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI0_MISO"
+		(shape input)
+		(at 184.15 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bebc2ae7-ec51-47a7-8630-d204a2658149")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.9928 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3203,72 +3315,6 @@
 			)
 		)
 	)
-	(global_label "SPI1_CLK"
-		(shape input)
-		(at 54.61 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a519c8-1b95-490c-a8f5-2d163c28fbc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7953 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI0_MISO"
-		(shape input)
-		(at 100.33 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9faa690-dad6-4ecd-8939-2bc932f3b91f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.1728 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_H"
-		(shape input)
-		(at 54.61 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca0fa467-e30f-4a6c-b925-d6951a653228")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.1539 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PSU_Vin"
 		(shape input)
 		(at 132.08 106.68 180)
@@ -3335,6 +3381,72 @@
 			)
 		)
 	)
+	(global_label "SPI1_MISO"
+		(shape input)
+		(at 58.42 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d21b3576-129b-43e7-ab3c-2c3aeb4c4dbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.5772 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGND"
+		(shape input)
+		(at 156.21 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2b4b828-9d50-4af8-9174-8ce40610a66d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.0843 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI0_CLK"
+		(shape input)
+		(at 184.15 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2cb09fd-5b68-49e0-b421-82582d604669")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.9647 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 82.55 95.25 0)
@@ -3379,31 +3491,9 @@
 			)
 		)
 	)
-	(global_label "SPI0_CS"
+	(global_label "DGND"
 		(shape input)
-		(at 58.42 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0584dc2-4622-4230-978d-513cf62654f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6939 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_MISO"
-		(shape input)
-		(at 184.15 36.83 0)
+		(at 100.33 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3411,9 +3501,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f11295bc-273c-477f-b238-3148415747a2")
+		(uuid "f225c399-5ced-44de-b998-94a4052d1cb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9928 36.83 0)
+			(at 108.4557 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,22 +3537,22 @@
 	)
 	(global_label "DGND"
 		(shape input)
-		(at 156.21 52.07 180)
+		(at 184.15 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f445b0a7-6312-433b-ac8b-fe5d2ccc3e37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.0843 52.07 0)
+			(at 192.2757 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3533,28 +3623,6 @@
 			)
 		)
 	)
-	(global_label "SPI0_CLK"
-		(shape input)
-		(at 58.42 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fddba13c-e95d-4266-91c0-08c0cda52c44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.6053 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PSU_GND"
 		(shape input)
 		(at 132.08 110.49 180)
@@ -3582,7 +3650,7 @@
 		(at 168.91 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3624,6 +3692,33 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 168.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 168.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 168.91 161.29 0)
 			(effects
 				(font
@@ -3696,6 +3791,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b269522-948b-4f2b-b49a-2d69c251f0c4")
 		)
@@ -3716,10 +3838,9 @@
 		(at 267.97 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1428a7a4-f8af-4b71-a123-cd654fb58c4d")
 		(property "Reference" "J1"
 			(at 269.24 77.4699 0)
@@ -3731,7 +3852,7 @@
 			)
 		)
 		(property "Value" "PM01"
-			(at 269.24 80.0099 0)
+			(at 269.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,6 +3887,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7bc8c31-ed74-47fa-aaca-5e1bc04b8d70")
 		)
@@ -3783,16 +3931,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 36.83 140.97 0)
+		(at 49.53 120.65 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1a3ca19e-c432-4142-91d3-767270c362ad")
 		(property "Reference" "J11"
-			(at 35.56 138.4299 0)
+			(at 48.26 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3949,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 35.56 140.9699 0)
+			(at 48.26 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3958,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 36.83 140.97 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3967,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 140.97 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3976,34 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 36.83 140.97 0)
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,6 +4081,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 232.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 232.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 232.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f05a69d-029b-439d-a68d-abfc1943938a")
 		)
@@ -3926,7 +4128,7 @@
 		(at 168.91 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3976,6 +4178,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 168.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Control Board V3"
 				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
@@ -3990,7 +4219,7 @@
 		(at 168.91 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4040,6 +4269,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 168.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Control Board V3"
 				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
@@ -4054,7 +4310,7 @@
 		(at 267.97 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4104,6 +4360,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43d9afe3-e641-4f8a-a749-466b26d4760f")
 		)
@@ -4124,7 +4407,7 @@
 		(at 267.97 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4174,6 +4457,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8638775d-efa8-4386-b7a5-9bc31bb927b8")
 		)
@@ -4184,6 +4494,200 @@
 			(project "Control Board V3"
 				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d7aebe0-892c-4dcc-9ae3-8be45033313d")
+		(property "Reference" "J15"
+			(at 269.24 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor 4"
+			(at 269.24 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e3c03a6-caa8-45bc-8bee-8bd54b8bc020")
+		)
+		(pin "2"
+			(uuid "73fee158-dfa3-4b0c-8969-d404136c20a1")
+		)
+		(instances
+			(project "Control Board V3"
+				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31141a0c-70f0-4bf6-aa4b-8746003497a9")
+		(property "Reference" "J17"
+			(at 269.1422 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PM01"
+			(at 269.1422 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2c4c59-e7d4-4b38-8c0c-d0033a682298")
+		)
+		(pin "2"
+			(uuid "28b7825b-f42d-4742-be28-8aabf2e62460")
+		)
+		(instances
+			(project "Control Board V3"
+				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4241,6 +4745,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 190.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 190.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "acbafb67-8c6d-4d42-9ddc-41994f62de19")
 		)
@@ -4273,7 +4804,7 @@
 		(at 267.97 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4323,6 +4854,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d47f0a1-0d57-4ca3-bceb-d5a423ff810c")
 		)
@@ -4333,6 +4891,103 @@
 			(project "Control Board V3"
 				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b92f257-6d30-4e1c-be25-539fb6572847")
+		(property "Reference" "J14"
+			(at 269.24 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor 3"
+			(at 269.24 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e584b889-13a6-431f-860b-fe92af57aa10")
+		)
+		(pin "2"
+			(uuid "707c29c3-3ac7-4479-9002-0b14486a1a8d")
+		)
+		(instances
+			(project "Control Board V3"
+				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4393,6 +5048,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b761aee-9cb6-4c49-8017-66c11b222f8d")
 		)
@@ -4413,7 +5095,7 @@
 		(at 168.91 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4463,6 +5145,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Control Board V3"
 				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
@@ -4477,7 +5186,7 @@
 		(at 267.97 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4527,6 +5236,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bed4c53-ce66-4556-bf5b-2a75868745c4")
 		)
@@ -4543,11 +5279,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fe5a7c2-cd12-4575-b699-c250a9d62696")
+		(property "Reference" "J13"
+			(at 269.24 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor 2"
+			(at 269.24 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b305a30b-2878-4534-a97d-d91c7222d0ce")
+		)
+		(pin "2"
+			(uuid "b2f597b3-7385-4055-8626-91315bd6530c")
+		)
+		(instances
+			(project "Control Board V3"
+				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 200.66 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4597,6 +5430,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ffc72fe1-e513-4873-93db-b2066264e4da")
 		)
@@ -4620,7 +5480,7 @@
 		(at 267.97 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4670,6 +5530,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 267.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd7bbc33-e996-4b3e-ade0-06c254aa1785")
 		)
@@ -4680,6 +5567,103 @@
 			(project "Control Board V3"
 				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d07afb-1290-4d1d-8abd-752ece27b201")
+		(property "Reference" "J16"
+			(at 269.24 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor 0"
+			(at 269.24 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32495e53-05d1-4667-84d4-8aa734c9126c")
+		)
+		(pin "2"
+			(uuid "77ab1161-4ab4-4200-995b-7c7129de8fb4")
+		)
+		(instances
+			(project "Control Board V3"
+				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4733,6 +5717,33 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 77.47 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,6 +5935,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d675b392-3c0d-4e94-975a-1efd3cc4581f")
 		)
@@ -4994,6 +6032,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f332b3bf-238e-4770-bb32-cae3a1f820b4")
 		)
@@ -5014,7 +6079,7 @@
 		(at 200.66 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5064,6 +6129,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4a5a74b0-a9f0-4593-b13f-6d3600265d02")
 		)
@@ -5084,10 +6176,107 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4ada992-a1d8-4649-b975-bc95cb210aa1")
+		(property "Reference" "J12"
+			(at 269.24 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor 1"
+			(at 269.24 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2507b6b7-7bcd-4c59-b1a5-60713e691f40")
+		)
+		(pin "2"
+			(uuid "981c6547-9cbf-4d1a-a4f4-091ab9bae7ef")
+		)
+		(instances
+			(project "Control Board V3"
+				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
 		(at 267.97 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5129,6 +6318,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 267.97 110.49 0)
 			(effects
 				(font
@@ -5207,6 +6423,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 191.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 191.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 191.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40fe6ef1-4038-463a-b316-2bded5f5726e")
 		)
@@ -5227,7 +6470,7 @@
 		(at 267.97 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5269,6 +6512,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 267.97 133.35 0)
 			(effects
 				(font
@@ -5337,6 +6607,33 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 190.5 133.35 0)
 			(effects
 				(font
@@ -5489,13 +6786,13 @@
 			)
 		)
 		(pin "DGND" input
-			(at 156.21 52.07 180)
+			(at 184.15 52.07 0)
 			(uuid "c36c10f0-d422-46ec-86a9-c169b5a362cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI1_CS" input
@@ -5578,6 +6875,16 @@
 				(justify left)
 			)
 		)
+		(pin "PGND" input
+			(at 156.21 52.07 180)
+			(uuid "4f4bd9e2-567f-461e-9d3a-162bda8470ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Control Board V3"
 				(path "/22bc51b2-c410-4727-a3a9-d2467cb5e276"
@@ -5641,13 +6948,13 @@
 			)
 		)
 		(pin "DGND" input
-			(at 86.36 52.07 0)
+			(at 58.42 52.07 180)
 			(uuid "b324d555-599e-4bcc-b36d-8a9717ad1bb3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SPI0_MISO" input
@@ -5703,6 +7010,16 @@
 		(pin "V_DT" input
 			(at 86.36 40.64 0)
 			(uuid "eebc42f0-12d2-48fd-8449-d4e8369b2f6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGND" input
+			(at 86.36 52.07 0)
+			(uuid "36780a2a-5568-4883-9e89-89b00c9224ad")
 			(effects
 				(font
 					(size 1.27 1.27)

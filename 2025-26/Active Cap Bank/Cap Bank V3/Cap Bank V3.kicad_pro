@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -58,92 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|21719531|51775000|07f4f81b-fc19-4b9d-9594-a81766b1e40c|66ccd519-7f05-4bb5-8b3b-e1df57dc6022",
-          "L2 is tall"
-        ],
-        [
-          "courtyards_overlap|22055000|51905000|66ccd519-7f05-4bb5-8b3b-e1df57dc6022|a4a0a888-9621-4bc7-b28c-19a276b59be8",
-          ""
-        ],
-        [
-          "courtyards_overlap|24055000|50255000|66ccd519-7f05-4bb5-8b3b-e1df57dc6022|f0ca5106-ce5f-45b3-96ba-0eb37730e653",
-          ""
-        ],
-        [
-          "courtyards_overlap|24355000|52755000|3be46879-e7a1-4a52-b1f6-c9eb0fa256ad|66ccd519-7f05-4bb5-8b3b-e1df57dc6022",
-          ""
-        ],
-        [
-          "courtyards_overlap|26925000|46833077|324c29dd-103c-43b4-84e9-4ae9cffeda30|66ccd519-7f05-4bb5-8b3b-e1df57dc6022",
-          ""
-        ],
-        [
-          "courtyards_overlap|27305000|47525000|66ccd519-7f05-4bb5-8b3b-e1df57dc6022|a42e777e-60b2-40e8-927c-6bc928cd2cea",
-          ""
-        ],
-        [
-          "courtyards_overlap|51555000|78480000|66ccd519-7f05-4bb5-8b3b-e1df57dc6022|c9f264d9-727b-4051-b8c6-f7d739c8b454",
-          ""
-        ],
-        [
-          "courtyards_overlap|54790000|70930000|15e4c1d8-af4a-4a23-8200-478b988b7105|66ccd519-7f05-4bb5-8b3b-e1df57dc6022",
-          ""
-        ],
-        [
-          "courtyards_overlap|55755000|69980000|0a305efa-a07a-4ee8-8ecd-f359f9c4c0d5|66ccd519-7f05-4bb5-8b3b-e1df57dc6022",
-          ""
-        ],
-        [
-          "courtyards_overlap|55770000|68610000|66ccd519-7f05-4bb5-8b3b-e1df57dc6022|99de94ff-7a2e-47c3-b586-0d0f3708c48a",
-          ""
-        ],
-        [
-          "courtyards_overlap|58720000|69980000|0a305efa-a07a-4ee8-8ecd-f359f9c4c0d5|99de94ff-7a2e-47c3-b586-0d0f3708c48a",
-          ""
-        ],
-        [
-          "courtyards_overlap|59270000|68610000|1efc05e7-1dae-48e1-9c03-e197e4a09c0a|66ccd519-7f05-4bb5-8b3b-e1df57dc6022",
-          ""
-        ],
-        [
-          "courtyards_overlap|62220000|69980000|0a305efa-a07a-4ee8-8ecd-f359f9c4c0d5|1efc05e7-1dae-48e1-9c03-e197e4a09c0a",
-          ""
-        ],
-        [
-          "courtyards_overlap|75701279|23355000|04f7e891-14f2-4256-8694-b96b7a83c9f9|7f8772e5-07ad-4220-83c0-8a332614dfab",
-          "it's fine"
-        ],
-        [
-          "hole_clearance|53800000|76200000|a2021b13-a187-453f-a2d8-512c462fa7b3|7da56199-8b65-447f-93c5-ef8bb3d2f5bd",
-          "same net???"
-        ],
-        [
-          "hole_clearance|82135000|70885083|4aa22ca9-147b-4e51-acc7-8e86024dead3|8c3fed15-e8ae-437d-b048-3c9fb4509e1f",
-          "same net"
-        ],
-        [
-          "lib_footprint_mismatch|37345517|66700000|66ccd519-7f05-4bb5-8b3b-e1df57dc6022|00000000-0000-0000-0000-000000000000",
-          "yeah i changed it"
-        ],
-        [
-          "lib_footprint_mismatch|47500000|29462500|dbdd26d2-fe20-49a0-b41b-f9914cd8a189|00000000-0000-0000-0000-000000000000",
-          "it's just a pico man"
-        ],
-        [
-          "silk_over_copper|39414842|59690575|0a6717be-a3aa-4462-98cf-e195c08854c2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|31660000|55213315|0a6717be-a3aa-4462-98cf-e195c08854c2|6f459268-f00c-4447-8bc6-d247b31c160f",
-          ""
-        ],
-        [
-          "silk_overlap|70666666|50476190|030f78c6-a804-4cf7-8f46-58b8debf58e4|d4a7bb0a-3a49-4443-b461-9a8eda7b42b1",
-          "its ok"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -185,13 +100,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -273,12 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.4,
-        0.5,
-        1.0,
-        1.5,
-        2.0
+        0.2,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -555,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Control Board V3.kicad_pro",
+    "filename": "Cap Bank V3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -591,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -602,7 +513,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "controlboardbom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -637,18 +548,6 @@
         },
         {
           "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -666,88 +565,16 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "HEIGHT",
-          "name": "HEIGHT",
-          "show": false
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER_NAME",
-          "name": "MANUFACTURER_NAME",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER_PART_NUMBER",
-          "name": "MANUFACTURER_PART_NUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MOUSER_PART_NUMBER",
-          "name": "MOUSER_PART_NUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MOUSER_PRICE-STOCK",
-          "name": "MOUSER_PRICE-STOCK",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PACKAGE_ID",
-          "name": "SNAPEDA_PACKAGE_ID",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DESCRIPTION",
-          "name": "DESCRIPTION",
-          "show": false
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
         },
         {
           "group_by": false,
@@ -764,10 +591,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Datasheet"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -811,24 +638,8 @@
   },
   "sheets": [
     [
-      "22bc51b2-c410-4727-a3a9-d2467cb5e276",
+      "c52b861d-2889-46c3-bccd-d3b012ad46e3",
       "Root"
-    ],
-    [
-      "c7ba13af-25fa-4f56-8cb4-3375c35abac6",
-      "Measurement System 1"
-    ],
-    [
-      "ee5c3413-fe12-4bf1-852e-cdfa36b1ce5f",
-      "Buck Converter"
-    ],
-    [
-      "13de5a88-c24b-4533-acd6-c92023a10a5f",
-      "5V Power Supply"
-    ],
-    [
-      "c4f425ca-03ca-4d37-a5b4-e052846e43ed",
-      "Measurement System 2"
     ]
   ],
   "text_variables": {}
