@@ -412,23 +412,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U1"
-				(at 0 10.16 0)
+				(at 1.778 -9.398 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "TLE5012BE1000"
-				(at 0 7.62 0)
+				(at -0.762 -9.398 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -1080,12 +1082,6 @@
 		(color 0 0 0 0)
 		(uuid "d7d91189-95ad-405a-8289-21cb66751d4f")
 	)
-	(junction
-		(at 135.89 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e18255ec-1d1c-4093-b06b-b1ed9bca02fd")
-	)
 	(no_connect
 		(at 135.89 78.74)
 		(uuid "0f333911-a9c5-4e37-811e-d664aed6bdaa")
@@ -1190,16 +1186,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 135.89 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8294a980-67bc-481a-9e1b-13b39ab9514c")
-	)
-	(wire
-		(pts
 			(xy 142.24 52.07) (xy 133.35 52.07)
 		)
 		(stroke
@@ -1210,13 +1196,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 135.89 62.23)
+			(xy 135.89 57.15) (xy 135.89 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2eaf097-9764-4c40-9a2d-ca34e8de7dc9")
+		(uuid "b9cbd41f-775e-4848-9264-3e2e46ceac22")
 	)
 	(wire
 		(pts
@@ -1352,7 +1338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 81.28 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1474,6 +1460,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_CAN_LIN:ISO1044BD")
+		(at 130.81 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d1344ec-0c15-4a49-ba69-d310fad65e0e")
+		(property "Reference" "U1"
+			(at 140.208 66.802 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TLE5012BE1000"
+			(at 140.208 69.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 140.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso1044.pdf"
+			(at 143.51 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "angle sensor, SOIC-8"
+			(at 118.872 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "e2191867-e7f7-4ec0-b4bb-0fd41d3e6862")
+		)
+		(pin "4"
+			(uuid "f798e06f-0846-4143-8ea5-6405510500f2")
+		)
+		(pin "6"
+			(uuid "ca9dcad7-5263-443a-9d8a-e88b463439f7")
+		)
+		(pin "1"
+			(uuid "a96139a2-15ac-4680-b625-013c89b8a21b")
+		)
+		(pin "2"
+			(uuid "8844f748-496a-42b9-95fa-45c6af196af9")
+		)
+		(pin "8"
+			(uuid "11816fa7-3166-4dd1-aa46-9b8a1999dd96")
+		)
+		(pin "5"
+			(uuid "123c7591-d6a8-42f9-8bff-31a46894a453")
+		)
+		(pin "3"
+			(uuid "b3aa03a0-9677-4089-b102-e04fd4927686")
+		)
+		(instances
+			(project "encoder board"
+				(path "/4ad8da32-6a39-4fcb-82be-0e55f6dd2596"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 81.28 73.66 0)
 		(unit 1)
@@ -1507,7 +1593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 81.28 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1583,7 +1669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 81.28 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1698,97 +1784,6 @@
 			(project "encoder board"
 				(path "/4ad8da32-6a39-4fcb-82be-0e55f6dd2596"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 172.72 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a4688c6-5db1-45ba-b91a-4c13e6ac9873")
-		(property "Reference" "J1"
-			(at 175.26 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "jst-ph"
-			(at 175.26 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal"
-			(at 172.72 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "3656c8c8-302c-4f64-9556-3c7ca6d9b154")
-		)
-		(pin "1"
-			(uuid "4fcfe071-4efa-4792-ac2d-ff5f738137df")
-		)
-		(pin "5"
-			(uuid "31514c9b-6c63-4b23-bebc-823f1239276f")
-		)
-		(pin "4"
-			(uuid "29cc9151-43f1-4343-bf2b-87d44117e59b")
-		)
-		(pin "2"
-			(uuid "67ffdabc-6651-4642-9a94-fd3f604cf07c")
-		)
-		(instances
-			(project "encoder board"
-				(path "/4ad8da32-6a39-4fcb-82be-0e55f6dd2596"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1910,7 +1905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1953,8 +1948,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:ISO1044BD")
-		(at 130.81 68.58 90)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 172.72 57.15 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1962,43 +1958,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bb1fa564-5c2d-4705-8c7c-9577a9f6d494")
-		(property "Reference" "U1"
-			(at 140.208 66.802 90)
+		(uuid "e783a05f-9d05-447e-ae86-ed124ca2d6ab")
+		(property "Reference" "J1"
+			(at 175.26 58.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "TLE5012BE1000"
-			(at 140.208 69.342 90)
+		(property "Value" "jst-ph"
+			(at 175.26 55.8801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 140.97 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso1044.pdf"
-			(at 143.51 68.58 0)
+		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal"
+			(at 172.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2008,8 +1992,8 @@
 				)
 			)
 		)
-		(property "Description" "angle sensor, SOIC-8"
-			(at 118.872 67.31 0)
+		(property "Datasheet" ""
+			(at 172.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2019,34 +2003,36 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "41d629c8-c3c8-4160-9180-4fc8d9d6ef2a")
-		)
-		(pin "4"
-			(uuid "6b6ca599-99fd-4863-bc62-8d63e550af52")
-		)
-		(pin "6"
-			(uuid "724cae98-6f8b-4129-89d2-28f0bb2ce023")
-		)
-		(pin "1"
-			(uuid "f1a1b29b-a7f7-47f2-8e33-18f7819c81d9")
-		)
-		(pin "2"
-			(uuid "aefbc5ea-33a9-48e8-99ee-cb5586a7fd10")
-		)
-		(pin "8"
-			(uuid "4c3ce52c-3bd9-4ae3-a61b-74d67b5fb078")
-		)
-		(pin "5"
-			(uuid "daa7ddf5-726f-41ca-816e-426e8e6d4c4e")
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 172.72 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "275655e3-9a5f-4d00-96e9-cda99f52978e")
+			(uuid "050c8a8b-6ef6-4e76-8c40-d11076f231f7")
+		)
+		(pin "1"
+			(uuid "cee17430-b2b2-4400-bc9c-63fa581f1611")
+		)
+		(pin "5"
+			(uuid "54cd46d2-163a-4834-b0bc-171d102652dd")
+		)
+		(pin "4"
+			(uuid "ba848e5c-cd25-4bfc-9dae-ee6bef5cb1b5")
+		)
+		(pin "2"
+			(uuid "eb9686b9-c65a-4094-82d5-832435ff5418")
 		)
 		(instances
 			(project "encoder board"
 				(path "/4ad8da32-6a39-4fcb-82be-0e55f6dd2596"
-					(reference "U1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
