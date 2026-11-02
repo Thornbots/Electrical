@@ -645,7 +645,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "controlboardbom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -788,12 +788,6 @@
         },
         {
           "group_by": false,
-          "label": "DESCRIPTION",
-          "name": "DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -861,7 +855,7 @@
         "uuid": "22bc51b2-c410-4727-a3a9-d2467cb5e276"
       }
     ],
-    "used_designators": "U4,R1-2,R9-10,#PWR1-6,C1",
+    "used_designators": "U4,R1-2,R9-10,#PWR1-12,C1-2,C9-12,C20",
     "variants": []
   },
   "sheets": [
